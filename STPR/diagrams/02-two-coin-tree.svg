@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 360" width="760" height="360">
+  <defs>
+    <filter id="rough" x="-5%" y="-5%" width="110%" height="110%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.02" numOctaves="3" seed="7" result="noise"/>
+      <feDisplacementMap in="SourceGraphic" in2="noise" scale="4"/>
+    </filter>
+    <style>
+      .t { font-family: Virgil, "Segoe Print", "Comic Sans MS", "Chalkboard SE", cursive; fill: #1e1e1e; }
+    </style>
+  </defs>
+  <rect width="760" height="360" fill="#ffffff"/>
+
+  <g filter="url(#rough)" stroke="#1e1e1e" stroke-width="2" fill="none" stroke-linecap="round">
+    <!-- edges -->
+    <line x1="82" y1="170" x2="208" y2="98"/>
+    <line x1="82" y1="190" x2="208" y2="252"/>
+    <line x1="252" y1="82" x2="398" y2="55"/>
+    <line x1="252" y1="98" x2="398" y2="128"/>
+    <line x1="252" y1="242" x2="398" y2="212"/>
+    <line x1="252" y1="258" x2="398" y2="288"/>
+    <!-- nodes -->
+    <circle cx="60" cy="180" r="22" fill="#e9ecef"/>
+    <circle cx="230" cy="90" r="22" fill="#a5d8ff"/>
+    <circle cx="230" cy="250" r="22" fill="#ffec99"/>
+    <circle cx="420" cy="50" r="22" fill="#a5d8ff"/>
+    <circle cx="420" cy="130" r="22" fill="#ffec99"/>
+    <circle cx="420" cy="210" r="22" fill="#a5d8ff"/>
+    <circle cx="420" cy="290" r="22" fill="#ffec99"/>
+    <!-- matching outcomes -->
+    <rect x="470" y="28" width="110" height="44" rx="10" stroke="#2f9e44" fill="#b2f2bb"/>
+    <rect x="470" y="268" width="110" height="44" rx="10" stroke="#2f9e44" fill="#b2f2bb"/>
+    <rect x="470" y="108" width="110" height="44" rx="10"/>
+    <rect x="470" y="188" width="110" height="44" rx="10"/>
+    <!-- result box -->
+    <rect x="610" y="120" width="135" height="120" rx="14" stroke="#e03131" fill="#ffc9c9" fill-opacity="0.5"/>
+  </g>
+
+  <text class="t" x="53" y="187" font-size="18">S</text>
+  <text class="t" x="222" y="97" font-size="20">H</text>
+  <text class="t" x="223" y="257" font-size="20">T</text>
+  <text class="t" x="412" y="57" font-size="20">H</text>
+  <text class="t" x="413" y="137" font-size="20">T</text>
+  <text class="t" x="412" y="217" font-size="20">H</text>
+  <text class="t" x="413" y="297" font-size="20">T</text>
+
+  <text class="t" x="110" y="122" font-size="16" style="fill:#1971c2">1/2</text>
+  <text class="t" x="110" y="248" font-size="16" style="fill:#1971c2">1/2</text>
+  <text class="t" x="310" y="58" font-size="16" style="fill:#1971c2">1/2</text>
+  <text class="t" x="310" y="128" font-size="16" style="fill:#1971c2">1/2</text>
+  <text class="t" x="310" y="216" font-size="16" style="fill:#1971c2">1/2</text>
+  <text class="t" x="310" y="290" font-size="16" style="fill:#1971c2">1/2</text>
+
+  <text class="t" x="490" y="57" font-size="20">HH ✓</text>
+  <text class="t" x="497" y="137" font-size="20">HT</text>
+  <text class="t" x="497" y="217" font-size="20">TH</text>
+  <text class="t" x="490" y="297" font-size="20">TT ✓</text>
+
+  <text class="t" x="20" y="30" font-size="20">2 coins → 2 × 2 = 4 outcomes</text>
+  <text class="t" x="622" y="152" font-size="17">P(same face)</text>
+  <text class="t" x="640" y="185" font-size="20">= 2/4</text>
+  <text class="t" x="640" y="218" font-size="20">= 1/2</text>
+  <text class="t" x="20" y="345" font-size="16" style="fill:#868e96">each path = 1/2 × 1/2 = 1/4</text>
+</svg>

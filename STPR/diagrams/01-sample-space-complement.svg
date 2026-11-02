@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 380" width="760" height="380">
+  <defs>
+    <filter id="rough" x="-5%" y="-5%" width="110%" height="110%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.02" numOctaves="3" seed="4" result="noise"/>
+      <feDisplacementMap in="SourceGraphic" in2="noise" scale="4"/>
+    </filter>
+    <pattern id="hatchGreen" width="9" height="9" patternUnits="userSpaceOnUse" patternTransform="rotate(-45)">
+      <line x1="0" y1="0" x2="0" y2="9" stroke="#2f9e44" stroke-width="1.6"/>
+    </pattern>
+    <pattern id="hatchGrey" width="9" height="9" patternUnits="userSpaceOnUse" patternTransform="rotate(-45)">
+      <line x1="0" y1="0" x2="0" y2="9" stroke="#adb5bd" stroke-width="1.4"/>
+    </pattern>
+    <style>
+      .t { font-family: Virgil, "Segoe Print", "Comic Sans MS", "Chalkboard SE", cursive; fill: #1e1e1e; }
+    </style>
+  </defs>
+  <rect width="760" height="380" fill="#ffffff"/>
+
+  <g filter="url(#rough)" stroke="#1e1e1e" stroke-width="2" fill="none" stroke-linecap="round">
+    <!-- sample space -->
+    <rect x="30" y="50" width="700" height="220" rx="18"/>
+    <!-- event A -->
+    <ellipse cx="185" cy="160" rx="135" ry="80" stroke="#2f9e44" stroke-width="2.5" fill="#b2f2bb" fill-opacity="0.45"/>
+    <!-- soccer kids -->
+    <circle cx="115" cy="160" r="22" fill="url(#hatchGreen)"/>
+    <circle cx="185" cy="160" r="22" fill="url(#hatchGreen)"/>
+    <circle cx="255" cy="160" r="22" fill="url(#hatchGreen)"/>
+    <!-- other kids -->
+    <circle cx="380" cy="125" r="22" fill="url(#hatchGrey)"/>
+    <circle cx="450" cy="125" r="22" fill="url(#hatchGrey)"/>
+    <circle cx="520" cy="125" r="22" fill="url(#hatchGrey)"/>
+    <circle cx="590" cy="125" r="22" fill="url(#hatchGrey)"/>
+    <circle cx="415" cy="200" r="22" fill="url(#hatchGrey)"/>
+    <circle cx="485" cy="200" r="22" fill="url(#hatchGrey)"/>
+    <circle cx="555" cy="200" r="22" fill="url(#hatchGrey)"/>
+  </g>
+
+  <text class="t" x="40" y="36" font-size="20">S = all 10 kids (sample space)</text>
+  <text class="t" x="105" y="112" font-size="18" fill="#2f9e44" style="fill:#2f9e44">A = plays soccer</text>
+  <text class="t" x="420" y="255" font-size="18" style="fill:#868e96">Aᶜ = does NOT play soccer</text>
+
+  <text class="t" x="40" y="315" font-size="22">P(A) = n(A) / n(S) = 3/10 = 0.3</text>
+  <text class="t" x="40" y="352" font-size="22">P(Aᶜ) = 1 − P(A) = 7/10 = 0.7</text>
+  <text class="t" x="470" y="335" font-size="18" style="fill:#e03131">A + Aᶜ = everything</text>
+</svg>

@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 420" width="860" height="420">
+  <defs>
+    <filter id="rough" x="-5%" y="-5%" width="110%" height="110%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.02" numOctaves="3" seed="11" result="noise"/>
+      <feDisplacementMap in="SourceGraphic" in2="noise" scale="4"/>
+    </filter>
+    <pattern id="hatchRed" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(-45)">
+      <line x1="0" y1="0" x2="0" y2="8" stroke="#e03131" stroke-width="2"/>
+    </pattern>
+    <clipPath id="clipA"><circle cx="560" cy="170" r="100"/></clipPath>
+    <style>
+      .t { font-family: Virgil, "Segoe Print", "Comic Sans MS", "Chalkboard SE", cursive; fill: #1e1e1e; }
+    </style>
+  </defs>
+  <rect width="860" height="420" fill="#ffffff"/>
+
+  <g filter="url(#rough)" stroke="#1e1e1e" stroke-width="2" fill="none" stroke-linecap="round">
+    <!-- left panel: disjoint -->
+    <rect x="20" y="50" width="390" height="275" rx="16"/>
+    <circle cx="125" cy="175" r="80" stroke="#2f9e44" fill="#b2f2bb" fill-opacity="0.55"/>
+    <circle cx="305" cy="175" r="90" stroke="#1971c2" fill="#a5d8ff" fill-opacity="0.55"/>
+    <!-- right panel: overlapping -->
+    <rect x="450" y="50" width="390" height="275" rx="16"/>
+    <circle cx="560" cy="170" r="100" stroke="#2f9e44" fill="#b2f2bb" fill-opacity="0.55"/>
+    <circle cx="710" cy="170" r="100" stroke="#1971c2" fill="#a5d8ff" fill-opacity="0.55"/>
+    <circle cx="710" cy="170" r="100" fill="url(#hatchRed)" stroke="none" clip-path="url(#clipA)"/>
+  </g>
+
+  <text class="t" x="30" y="36" font-size="20">Disjoint (can't happen together)</text>
+  <text class="t" x="460" y="36" font-size="20">Overlapping (can happen together)</text>
+
+  <text class="t" x="85" y="170" font-size="18">Soccer</text>
+  <text class="t" x="100" y="196" font-size="18">30%</text>
+  <text class="t" x="255" y="170" font-size="18">Basketball</text>
+  <text class="t" x="285" y="196" font-size="18">40%</text>
+
+  <text class="t" x="490" y="175" font-size="18">A only</text>
+  <text class="t" x="735" y="175" font-size="18">B only</text>
+  <text class="t" x="612" y="294" font-size="16" style="fill:#e03131">A and B</text>
+  <text class="t" x="590" y="314" font-size="15" style="fill:#e03131">counted twice!</text>
+
+  <text class="t" x="30" y="365" font-size="20">P(A or B) = P(A) + P(B)</text>
+  <text class="t" x="30" y="398" font-size="18" style="fill:#868e96">= 0.3 + 0.4 = 0.7</text>
+  <text class="t" x="460" y="365" font-size="20">P(A or B) = P(A) + P(B) − P(A and B)</text>
+  <text class="t" x="460" y="398" font-size="18" style="fill:#868e96">subtract the overlap once</text>
+</svg>

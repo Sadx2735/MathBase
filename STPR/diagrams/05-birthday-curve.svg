@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 400" width="760" height="400">
+  <defs>
+    <filter id="rough" x="-5%" y="-5%" width="110%" height="110%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.02" numOctaves="3" seed="9" result="noise"/>
+      <feDisplacementMap in="SourceGraphic" in2="noise" scale="3"/>
+    </filter>
+    <style>
+      .t { font-family: Virgil, "Segoe Print", "Comic Sans MS", "Chalkboard SE", cursive; fill: #1e1e1e; }
+    </style>
+  </defs>
+  <rect width="760" height="400" fill="#ffffff"/>
+
+  <!-- plot area: x 80..680 (0..60 people), y 320..60 (0..1) -->
+  <g filter="url(#rough)" stroke="#1e1e1e" stroke-width="2" fill="none" stroke-linecap="round">
+    <path d="M80 330 L80 45 M72 55 L80 45 L88 55"/>
+    <path d="M70 320 L700 320 M690 312 L700 320 L690 328"/>
+    <path d="M80 190 L680 190" stroke="#868e96" stroke-dasharray="8 8"/>
+    <path d="M310 320 L310 188" stroke="#f08c00" stroke-dasharray="6 6"/>
+    <path d="M380 320 L380 136" stroke="#e03131" stroke-dasharray="6 6"/>
+    <polyline stroke="#1971c2" stroke-width="3"
+      points="80,320 130,313 180,290 230,254 280,213 310,188 380,136 480,88 580,68 680,62"/>
+    <circle cx="310" cy="188" r="6" fill="#f08c00" stroke="#f08c00"/>
+    <circle cx="380" cy="136" r="6" fill="#e03131" stroke="#e03131"/>
+  </g>
+
+  <text class="t" x="20" y="30" font-size="20">P(at least two share a birthday) vs number of people</text>
+  <text class="t" x="52" y="325" font-size="15">0</text>
+  <text class="t" x="40" y="195" font-size="15">0.5</text>
+  <text class="t" x="52" y="66" font-size="15">1</text>
+  <text class="t" x="174" y="342" font-size="15">10</text>
+  <text class="t" x="274" y="342" font-size="15">20</text>
+  <text class="t" x="374" y="342" font-size="15">30</text>
+  <text class="t" x="474" y="342" font-size="15">40</text>
+  <text class="t" x="574" y="342" font-size="15">50</text>
+  <text class="t" x="674" y="342" font-size="15">60</text>
+  <text class="t" x="560" y="372" font-size="16">people in the room</text>
+
+  <text class="t" x="120" y="165" font-size="17" style="fill:#f08c00">23 people → 50.7%</text>
+  <text class="t" x="395" y="150" font-size="17" style="fill:#e03131">30 people → 70.6%</text>
+  <text class="t" x="395" y="240" font-size="15" style="fill:#868e96">P(shared) = 1 − P(all different)</text>
+  <text class="t" x="395" y="266" font-size="15" style="fill:#868e96">P(all different) = 365/365 · 364/365 · …</text>
+</svg>

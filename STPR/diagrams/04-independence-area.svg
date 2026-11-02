@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 420" width="760" height="420">
+  <defs>
+    <filter id="rough" x="-5%" y="-5%" width="110%" height="110%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.02" numOctaves="3" seed="5" result="noise"/>
+      <feDisplacementMap in="SourceGraphic" in2="noise" scale="4"/>
+    </filter>
+    <pattern id="hatchGreen" width="9" height="9" patternUnits="userSpaceOnUse" patternTransform="rotate(-45)">
+      <line x1="0" y1="0" x2="0" y2="9" stroke="#2f9e44" stroke-width="1.8"/>
+    </pattern>
+    <style>
+      .t { font-family: Virgil, "Segoe Print", "Comic Sans MS", "Chalkboard SE", cursive; fill: #1e1e1e; }
+    </style>
+  </defs>
+  <rect width="760" height="420" fill="#ffffff"/>
+
+  <!-- 100 kids square: x 110..470 (soccer split at 290), y 60..360 (room split at 150 = 30%) -->
+  <g filter="url(#rough)" stroke="#1e1e1e" stroke-width="2" fill="none" stroke-linecap="round">
+    <rect x="110" y="60" width="180" height="90" fill="url(#hatchGreen)" stroke="#2f9e44" stroke-width="3"/>
+    <rect x="290" y="60" width="180" height="90" fill="#e9ecef"/>
+    <rect x="110" y="150" width="180" height="210" fill="#b2f2bb" fill-opacity="0.5"/>
+    <rect x="290" y="150" width="180" height="210" fill="#f8f9fa"/>
+    <!-- braces / arrows -->
+    <path d="M110 385 L290 385 M110 378 L110 392 M290 378 L290 392" stroke="#1971c2"/>
+    <path d="M290 385 L470 385 M470 378 L470 392" stroke="#1971c2"/>
+    <path d="M90 60 L90 150 M83 60 L97 60 M83 150 L97 150" stroke="#f08c00"/>
+    <path d="M90 150 L90 360 M83 360 L97 360" stroke="#f08c00"/>
+    <!-- callout -->
+    <path d="M505 95 Q 470 70 300 100" stroke="#e03131"/>
+    <path d="M300 100 L314 90 M300 100 L315 108" stroke="#e03131"/>
+  </g>
+
+  <text class="t" x="110" y="40" font-size="20">100 kids</text>
+  <text class="t" x="168" y="112" font-size="26">15</text>
+  <text class="t" x="350" y="112" font-size="26">15</text>
+  <text class="t" x="168" y="262" font-size="26">35</text>
+  <text class="t" x="350" y="262" font-size="26">35</text>
+
+  <text class="t" x="130" y="410" font-size="17" style="fill:#1971c2">Soccer 50%</text>
+  <text class="t" x="305" y="410" font-size="17" style="fill:#1971c2">No soccer 50%</text>
+  <text class="t" x="18" y="100" font-size="16" style="fill:#f08c00">Room 1</text>
+  <text class="t" x="26" y="120" font-size="16" style="fill:#f08c00">30%</text>
+  <text class="t" x="18" y="250" font-size="16" style="fill:#f08c00">Room 2</text>
+  <text class="t" x="26" y="270" font-size="16" style="fill:#f08c00">70%</text>
+
+  <text class="t" x="510" y="90" font-size="18" style="fill:#e03131">soccer AND room 1</text>
+  <text class="t" x="510" y="118" font-size="18" style="fill:#e03131">= 0.5 × 0.3 = 0.15</text>
+  <text class="t" x="510" y="146" font-size="18" style="fill:#e03131">→ 15 kids</text>
+
+  <text class="t" x="510" y="230" font-size="17">Independent:</text>
+  <text class="t" x="510" y="256" font-size="17">area of a cell =</text>
+  <text class="t" x="510" y="282" font-size="17">width × height</text>
+  <text class="t" x="510" y="318" font-size="19">P(A and B) = P(A)·P(B)</text>
+</svg>
