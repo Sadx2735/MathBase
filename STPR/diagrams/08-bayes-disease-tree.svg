@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 480" width="880" height="480">
+  <defs>
+    <filter id="rough" x="-5%" y="-5%" width="110%" height="110%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.02" numOctaves="3" seed="31" result="noise"/>
+      <feDisplacementMap in="SourceGraphic" in2="noise" scale="4"/>
+    </filter>
+    <pattern id="hatchRed" width="9" height="9" patternUnits="userSpaceOnUse" patternTransform="rotate(-45)">
+      <line x1="0" y1="0" x2="0" y2="9" stroke="#e03131" stroke-width="1.8"/>
+    </pattern>
+    <style>
+      .t { font-family: Virgil, "Segoe Print", "Comic Sans MS", "Chalkboard SE", cursive; fill: #1e1e1e; }
+    </style>
+  </defs>
+  <rect width="880" height="480" fill="#ffffff"/>
+
+  <g filter="url(#rough)" stroke="#1e1e1e" stroke-width="2" fill="none" stroke-linecap="round">
+    <!-- edges -->
+    <line x1="440" y1="76" x2="200" y2="150"/>
+    <line x1="440" y1="76" x2="690" y2="150"/>
+    <line x1="200" y1="196" x2="110" y2="270"/>
+    <line x1="200" y1="196" x2="280" y2="270" stroke="#adb5bd"/>
+    <line x1="690" y1="196" x2="595" y2="270"/>
+    <line x1="690" y1="196" x2="782" y2="270" stroke="#adb5bd"/>
+    <!-- nodes -->
+    <rect x="345" y="30" width="190" height="46" rx="10" fill="#e9ecef"/>
+    <rect x="120" y="150" width="160" height="46" rx="10" fill="#ffec99" stroke="#f08c00"/>
+    <rect x="590" y="150" width="200" height="46" rx="10" fill="#a5d8ff" stroke="#1971c2"/>
+    <rect x="40" y="270" width="140" height="50" rx="10" fill="#b2f2bb" stroke="#2f9e44" stroke-width="3"/>
+    <rect x="210" y="270" width="140" height="50" rx="10" stroke="#adb5bd"/>
+    <rect x="515" y="270" width="160" height="50" rx="10" fill="#ffc9c9" stroke="#e03131" stroke-width="3"/>
+    <rect x="700" y="270" width="170" height="50" rx="10" stroke="#adb5bd"/>
+    <!-- bar of all positives -->
+    <rect x="120" y="385" width="640" height="38" fill="url(#hatchRed)" stroke="#e03131"/>
+    <rect x="120" y="385" width="9" height="38" fill="#2f9e44" stroke="#2f9e44"/>
+    <path d="M110 320 Q 95 360 122 382" stroke="#2f9e44"/>
+    <path d="M122 382 L108 378 M122 382 L118 369" stroke="#2f9e44"/>
+  </g>
+
+  <text class="t" x="358" y="60" font-size="18">1,000,000 people</text>
+  <text class="t" x="150" y="180" font-size="18">Sick: 100</text>
+  <text class="t" x="600" y="180" font-size="18">Healthy: 999,900</text>
+  <text class="t" x="54" y="301" font-size="18">Test +  99</text>
+  <text class="t" x="225" y="301" font-size="17" style="fill:#868e96">Test −  1</text>
+  <text class="t" x="525" y="301" font-size="18">Test +  9,999</text>
+  <text class="t" x="710" y="301" font-size="16" style="fill:#868e96">Test −  989,901</text>
+
+  <text class="t" x="220" y="108" font-size="16" style="fill:#1971c2">1 in 10,000</text>
+  <text class="t" x="590" y="108" font-size="16" style="fill:#1971c2">the rest</text>
+  <text class="t" x="110" y="238" font-size="16" style="fill:#2f9e44">99%</text>
+  <text class="t" x="250" y="238" font-size="16" style="fill:#adb5bd">1%</text>
+  <text class="t" x="545" y="238" font-size="16" style="fill:#e03131">1% wrong!</text>
+  <text class="t" x="748" y="238" font-size="16" style="fill:#adb5bd">99%</text>
+
+  <text class="t" x="20" y="22" font-size="15" style="fill:#868e96">rare disease, 99% accurate test</text>
+  <text class="t" x="150" y="372" font-size="17">everyone who tested positive = 99 + 9,999 = 10,098</text>
+  <text class="t" x="132" y="441" font-size="14" style="fill:#2f9e44">↑ truly sick (tiny!)</text>
+  <text class="t" x="280" y="468" font-size="19">P(sick | test +) = 99 / 10,098 ≈ 0.98%</text>
+</svg>

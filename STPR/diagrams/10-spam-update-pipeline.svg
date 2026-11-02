@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 430" width="880" height="430">
+  <defs>
+    <filter id="rough" x="-5%" y="-5%" width="110%" height="110%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.02" numOctaves="3" seed="23" result="noise"/>
+      <feDisplacementMap in="SourceGraphic" in2="noise" scale="4"/>
+    </filter>
+    <pattern id="hatchBlue" width="9" height="9" patternUnits="userSpaceOnUse" patternTransform="rotate(-45)">
+      <line x1="0" y1="0" x2="0" y2="9" stroke="#1971c2" stroke-width="1.5"/>
+    </pattern>
+    <style>
+      .t { font-family: Virgil, "Segoe Print", "Comic Sans MS", "Chalkboard SE", cursive; fill: #1e1e1e; }
+    </style>
+  </defs>
+  <rect width="880" height="430" fill="#ffffff"/>
+
+  <!-- bars: y 100..300 (200px = 100%), spam (red) from bottom -->
+  <g filter="url(#rough)" stroke="#1e1e1e" stroke-width="2" fill="none" stroke-linecap="round">
+    <rect x="60" y="100" width="120" height="160" fill="url(#hatchBlue)" stroke="#1971c2"/>
+    <rect x="60" y="260" width="120" height="40" fill="#ffc9c9" stroke="#e03131" stroke-width="2.5"/>
+
+    <rect x="380" y="100" width="120" height="83" fill="url(#hatchBlue)" stroke="#1971c2"/>
+    <rect x="380" y="183" width="120" height="117" fill="#ffc9c9" stroke="#e03131" stroke-width="2.5"/>
+
+    <rect x="700" y="100" width="120" height="13" fill="url(#hatchBlue)" stroke="#1971c2"/>
+    <rect x="700" y="113" width="120" height="187" fill="#ffc9c9" stroke="#e03131" stroke-width="2.5"/>
+
+    <!-- arrows -->
+    <path d="M195 200 L362 200 M350 190 L362 200 L350 210"/>
+    <path d="M515 200 L682 200 M670 190 L682 200 L670 210"/>
+    <!-- feedback loop -->
+    <path d="M440 330 Q 440 370 280 372 Q 120 372 120 335" stroke="#9c36b5" stroke-dasharray="7 6"/>
+    <path d="M120 335 L113 348 M120 335 L128 347" stroke="#9c36b5"/>
+  </g>
+
+  <text class="t" x="20" y="32" font-size="20">Each new word updates the belief "this email is spam"</text>
+
+  <text class="t" x="95" y="88" font-size="17">PRIOR</text>
+  <text class="t" x="385" y="88" font-size="17">after "lottery"</text>
+  <text class="t" x="668" y="88" font-size="15">after "lottery" + "won"</text>
+
+  <text class="t" x="95" y="286" font-size="17">0.20</text>
+  <text class="t" x="415" y="248" font-size="20">0.58</text>
+  <text class="t" x="735" y="214" font-size="22">0.93</text>
+
+  <text class="t" x="210" y="160" font-size="17">sees "lottery"</text>
+  <text class="t" x="210" y="230" font-size="15" style="fill:#e03131">spam × 0.7</text>
+  <text class="t" x="210" y="252" font-size="15" style="fill:#1971c2">not spam × 0.125</text>
+
+  <text class="t" x="530" y="160" font-size="17">sees "won"</text>
+  <text class="t" x="530" y="230" font-size="15" style="fill:#e03131">spam × 0.5</text>
+  <text class="t" x="530" y="252" font-size="15" style="fill:#1971c2">not spam × 0.05</text>
+
+  <text class="t" x="40" y="325" font-size="15" style="fill:#e03131">■ spam</text>
+  <text class="t" x="130" y="325" font-size="15" style="fill:#1971c2">▨ not spam</text>
+  <text class="t" x="200" y="400" font-size="16" style="fill:#9c36b5">yesterday's posterior becomes today's prior</text>
+</svg>

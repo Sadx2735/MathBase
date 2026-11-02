@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 400" width="880" height="400">
+  <defs>
+    <filter id="rough" x="-5%" y="-5%" width="110%" height="110%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.02" numOctaves="3" seed="17" result="noise"/>
+      <feDisplacementMap in="SourceGraphic" in2="noise" scale="4"/>
+    </filter>
+    <style>
+      .t { font-family: Virgil, "Segoe Print", "Comic Sans MS", "Chalkboard SE", cursive; fill: #1e1e1e; }
+    </style>
+  </defs>
+  <rect width="880" height="400" fill="#ffffff"/>
+
+  <g filter="url(#rough)" stroke-width="2.2" fill="none" stroke-linecap="round">
+    <!-- highlight boxes -->
+    <rect x="140" y="180" width="185" height="52" rx="10" stroke="#9c36b5" fill="#eebefa" fill-opacity="0.5"/>
+    <rect x="375" y="148" width="175" height="50" rx="10" stroke="#1971c2" fill="#a5d8ff" fill-opacity="0.5"/>
+    <rect x="575" y="148" width="100" height="50" rx="10" stroke="#2f9e44" fill="#b2f2bb" fill-opacity="0.5"/>
+    <rect x="478" y="215" width="104" height="50" rx="10" stroke="#f08c00" fill="#ffec99" fill-opacity="0.5"/>
+    <!-- fraction line -->
+    <line x1="368" y1="206" x2="690" y2="206" stroke="#1e1e1e" stroke-width="2.5"/>
+    <!-- arrows -->
+    <path d="M95 165 Q 120 180 150 190" stroke="#9c36b5"/>
+    <path d="M150 190 L136 192 M150 190 L141 179" stroke="#9c36b5"/>
+    <path d="M400 85 Q 430 115 450 146" stroke="#1971c2"/>
+    <path d="M450 146 L437 139 M450 146 L452 132" stroke="#1971c2"/>
+    <path d="M730 140 Q 700 145 668 152" stroke="#2f9e44"/>
+    <path d="M668 152 L680 144 M668 152 L681 159" stroke="#2f9e44"/>
+    <path d="M610 300 Q 580 285 560 268" stroke="#f08c00"/>
+    <path d="M560 268 L563 282 M560 268 L574 271" stroke="#f08c00"/>
+  </g>
+
+  <text class="t" x="150" y="217" font-size="32">P(A | B)</text>
+  <text class="t" x="335" y="217" font-size="32">=</text>
+  <text class="t" x="385" y="184" font-size="32">P(B | A)</text>
+  <text class="t" x="555" y="184" font-size="32">·</text>
+  <text class="t" x="585" y="184" font-size="32">P(A)</text>
+  <text class="t" x="490" y="252" font-size="32">P(B)</text>
+
+  <text class="t" x="20" y="110" font-size="18" style="fill:#9c36b5">POSTERIOR</text>
+  <text class="t" x="20" y="132" font-size="15" style="fill:#9c36b5">belief AFTER</text>
+  <text class="t" x="20" y="152" font-size="15" style="fill:#9c36b5">seeing the evidence</text>
+
+  <text class="t" x="300" y="45" font-size="18" style="fill:#1971c2">LIKELIHOOD</text>
+  <text class="t" x="300" y="68" font-size="15" style="fill:#1971c2">if A is true, how often do we see B?</text>
+
+  <text class="t" x="735" y="110" font-size="18" style="fill:#2f9e44">PRIOR</text>
+  <text class="t" x="735" y="132" font-size="15" style="fill:#2f9e44">belief BEFORE</text>
+  <text class="t" x="735" y="152" font-size="15" style="fill:#2f9e44">the evidence</text>
+
+  <text class="t" x="560" y="318" font-size="18" style="fill:#f08c00">EVIDENCE (total)</text>
+  <text class="t" x="560" y="341" font-size="15" style="fill:#f08c00">how often we see B at all =</text>
+  <text class="t" x="560" y="362" font-size="15" style="fill:#f08c00">P(A)·P(B|A) + P(Aᶜ)·P(B|Aᶜ)</text>
+
+  <text class="t" x="20" y="300" font-size="17">In words:</text>
+  <text class="t" x="20" y="325" font-size="16">new belief =</text>
+  <text class="t" x="20" y="348" font-size="16">old belief × how well A explains B</text>
+  <text class="t" x="20" y="371" font-size="16">÷ how common B is overall</text>
+</svg>
