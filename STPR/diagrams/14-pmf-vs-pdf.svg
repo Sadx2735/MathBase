@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 435" width="880" height="435">
+  <defs>
+    <filter id="rough" x="-5%" y="-5%" width="110%" height="110%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.02" numOctaves="3" seed="53" result="noise"/>
+      <feDisplacementMap in="SourceGraphic" in2="noise" scale="4"/>
+    </filter>
+    <pattern id="hatchRed" width="9" height="9" patternUnits="userSpaceOnUse" patternTransform="rotate(-45)">
+      <line x1="0" y1="0" x2="0" y2="9" stroke="#e03131" stroke-width="1.8"/>
+    </pattern>
+    <style>
+      .t { font-family: Virgil, "Segoe Print", "Comic Sans MS", "Chalkboard SE", cursive; fill: #1e1e1e; }
+    </style>
+  </defs>
+  <rect width="880" height="435" fill="#ffffff"/>
+
+  <g filter="url(#rough)" stroke="#1e1e1e" stroke-width="2" fill="none" stroke-linecap="round">
+    <rect x="20" y="50" width="390" height="290" rx="16" stroke="#ced4da"/>
+    <rect x="450" y="50" width="410" height="290" rx="16" stroke="#ced4da"/>
+    <path d="M50 300 L390 300"/>
+    <path d="M470 300 L850 300"/>
+    <line x1="100" y1="300" x2="100" y2="245" stroke="#1971c2" stroke-width="4"/>
+    <circle cx="100" cy="245" r="8" fill="#1971c2" stroke="#1971c2"/>
+    <line x1="180" y1="300" x2="180" y2="135" stroke="#1971c2" stroke-width="4"/>
+    <circle cx="180" cy="135" r="8" fill="#1971c2" stroke="#1971c2"/>
+    <line x1="260" y1="300" x2="260" y2="135" stroke="#1971c2" stroke-width="4"/>
+    <circle cx="260" cy="135" r="8" fill="#1971c2" stroke="#1971c2"/>
+    <line x1="340" y1="300" x2="340" y2="245" stroke="#1971c2" stroke-width="4"/>
+    <circle cx="340" cy="245" r="8" fill="#1971c2" stroke="#1971c2"/>
+    <path d="M678.0 127.9 L684.0 133.8 L690.0 141.2 L696.0 149.7 L702.0 159.1 L708.0 169.3 L714.0 179.9 L720.0 190.8 L726.0 201.7 L732.0 212.4 L738.0 222.7 L744.0 232.4 L750.0 241.6 L750.0 300 L678.0 300 Z" fill="url(#hatchRed)" stroke="#e03131"/>
+    <path d="M480.0 298.0 L489.0 296.9 L498.0 295.3 L507.0 293.0 L516.0 289.9 L525.0 285.7 L534.0 280.2 L543.0 273.1 L552.0 264.4 L561.0 253.9 L570.0 241.6 L579.0 227.6 L588.0 212.4 L597.0 196.3 L606.0 179.9 L615.0 164.1 L624.0 149.7 L633.0 137.3 L642.0 127.9 L651.0 122.0 L660.0 120.0 L669.0 122.0 L678.0 127.9 L687.0 137.3 L696.0 149.7 L705.0 164.1 L714.0 179.9 L723.0 196.3 L732.0 212.4 L741.0 227.6 L750.0 241.6 L759.0 253.9 L768.0 264.4 L777.0 273.1 L786.0 280.2 L795.0 285.7 L804.0 289.9 L813.0 293.0 L822.0 295.3 L831.0 296.9 L840.0 298.0" stroke="#1971c2" stroke-width="3"/>
+  </g>
+
+  <text class="t" x="86" y="229" font-size="15" style="fill:#1971c2">1/8</text>
+  <text class="t" x="95" y="322" font-size="15">0</text>
+  <text class="t" x="166" y="119" font-size="15" style="fill:#1971c2">3/8</text>
+  <text class="t" x="175" y="322" font-size="15">1</text>
+  <text class="t" x="246" y="119" font-size="15" style="fill:#1971c2">3/8</text>
+  <text class="t" x="255" y="322" font-size="15">2</text>
+  <text class="t" x="326" y="229" font-size="15" style="fill:#1971c2">1/8</text>
+  <text class="t" x="335" y="322" font-size="15">3</text>
+  <text class="t" x="30" y="36" font-size="20">Discrete → PMF</text>
+  <text class="t" x="460" y="36" font-size="20">Continuous → PDF</text>
+  <text class="t" x="40" y="80" font-size="15" style="fill:#868e96">probability sits ON the points</text>
+  <text class="t" x="470" y="80" font-size="15" style="fill:#868e96">probability = AREA under the curve</text>
+  <text class="t" x="70" y="372" font-size="17">P(X = 2) = 3/8  ✓</text>
+  <text class="t" x="470" y="372" font-size="17" style="fill:#e03131">P(a ≤ X ≤ b) = shaded area</text>
+  <text class="t" x="470" y="397" font-size="15">P(X = exactly a) = 0   (a line has no width)</text>
+  <text class="t" x="672" y="322" font-size="16" style="fill:#e03131">a</text>
+  <text class="t" x="745" y="322" font-size="16" style="fill:#e03131">b</text>
+  <text class="t" x="470" y="422" font-size="15" style="fill:#868e96">total area = 1</text>
+</svg>

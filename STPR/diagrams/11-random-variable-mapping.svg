@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 435" width="880" height="435">
+  <defs>
+    <filter id="rough" x="-5%" y="-5%" width="110%" height="110%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.02" numOctaves="3" seed="41" result="noise"/>
+      <feDisplacementMap in="SourceGraphic" in2="noise" scale="4"/>
+    </filter>
+    <pattern id="hatchRed" width="9" height="9" patternUnits="userSpaceOnUse" patternTransform="rotate(-45)">
+      <line x1="0" y1="0" x2="0" y2="9" stroke="#e03131" stroke-width="1.8"/>
+    </pattern>
+    <style>
+      .t { font-family: Virgil, "Segoe Print", "Comic Sans MS", "Chalkboard SE", cursive; fill: #1e1e1e; }
+    </style>
+  </defs>
+  <rect width="880" height="435" fill="#ffffff"/>
+
+  <g filter="url(#rough)" stroke="#1e1e1e" stroke-width="2" fill="none" stroke-linecap="round">
+    <rect x="40" y="60" width="95" height="34" rx="8" fill="#eebefa" stroke="#9c36b5"/>
+    <path d="M140 77 L372 77 M363.0 81.3 L372 77 L363.0 72.7" stroke="#9c36b5"/>
+    <rect x="40" y="102" width="95" height="34" rx="8" fill="#a5d8ff" stroke="#1971c2"/>
+    <path d="M140 119 L372 161 M362.4 163.7 L372 161 L363.9 155.1" stroke="#1971c2"/>
+    <rect x="40" y="144" width="95" height="34" rx="8" fill="#a5d8ff" stroke="#1971c2"/>
+    <path d="M140 161 L372 161 M363.0 165.3 L372 161 L363.0 156.7" stroke="#1971c2"/>
+    <rect x="40" y="186" width="95" height="34" rx="8" fill="#a5d8ff" stroke="#1971c2"/>
+    <path d="M140 203 L372 161 M363.9 166.9 L372 161 L362.4 158.3" stroke="#1971c2"/>
+    <rect x="40" y="228" width="95" height="34" rx="8" fill="#b2f2bb" stroke="#2f9e44"/>
+    <path d="M140 245 L372 287 M362.4 289.7 L372 287 L363.9 281.1" stroke="#2f9e44"/>
+    <rect x="40" y="270" width="95" height="34" rx="8" fill="#b2f2bb" stroke="#2f9e44"/>
+    <path d="M140 287 L372 287 M363.0 291.3 L372 287 L363.0 282.7" stroke="#2f9e44"/>
+    <rect x="40" y="312" width="95" height="34" rx="8" fill="#b2f2bb" stroke="#2f9e44"/>
+    <path d="M140 329 L372 287 M363.9 292.9 L372 287 L362.4 284.3" stroke="#2f9e44"/>
+    <rect x="40" y="354" width="95" height="34" rx="8" fill="#ffec99" stroke="#f08c00"/>
+    <path d="M140 371 L372 371 M363.0 375.3 L372 371 L363.0 366.7" stroke="#f08c00"/>
+    <circle cx="400" cy="77" r="25" fill="#eebefa" stroke="#9c36b5" stroke-width="2.5"/>
+    <circle cx="400" cy="161" r="25" fill="#a5d8ff" stroke="#1971c2" stroke-width="2.5"/>
+    <circle cx="400" cy="287" r="25" fill="#b2f2bb" stroke="#2f9e44" stroke-width="2.5"/>
+    <circle cx="400" cy="371" r="25" fill="#ffec99" stroke="#f08c00" stroke-width="2.5"/>
+    <path d="M540 380 L850 380"/>
+    <rect x="565" y="320" width="46" height="60" fill="#ffec99" stroke="#f08c00"/>
+    <rect x="635" y="200" width="46" height="180" fill="#b2f2bb" stroke="#2f9e44"/>
+    <rect x="705" y="200" width="46" height="180" fill="#a5d8ff" stroke="#1971c2"/>
+    <rect x="775" y="320" width="46" height="60" fill="#eebefa" stroke="#9c36b5"/>
+  </g>
+
+  <text class="t" x="58" y="84" font-size="18">HHH</text>
+  <text class="t" x="58" y="126" font-size="18">HHT</text>
+  <text class="t" x="58" y="168" font-size="18">HTH</text>
+  <text class="t" x="58" y="210" font-size="18">THH</text>
+  <text class="t" x="58" y="252" font-size="18">HTT</text>
+  <text class="t" x="58" y="294" font-size="18">THT</text>
+  <text class="t" x="58" y="336" font-size="18">TTH</text>
+  <text class="t" x="58" y="378" font-size="18">TTT</text>
+  <text class="t" x="392" y="84" font-size="20">3</text>
+  <text class="t" x="392" y="168" font-size="20">2</text>
+  <text class="t" x="392" y="294" font-size="20">1</text>
+  <text class="t" x="392" y="378" font-size="20">0</text>
+  <text class="t" x="573" y="310" font-size="16" style="fill:#f08c00">1/8</text>
+  <text class="t" x="582" y="402" font-size="16">0</text>
+  <text class="t" x="643" y="190" font-size="16" style="fill:#2f9e44">3/8</text>
+  <text class="t" x="652" y="402" font-size="16">1</text>
+  <text class="t" x="713" y="190" font-size="16" style="fill:#1971c2">3/8</text>
+  <text class="t" x="722" y="402" font-size="16">2</text>
+  <text class="t" x="783" y="310" font-size="16" style="fill:#9c36b5">1/8</text>
+  <text class="t" x="792" y="402" font-size="16">3</text>
+  <text class="t" x="20" y="30" font-size="19">3 coin flips → 8 equally likely outcomes</text>
+  <text class="t" x="470" y="30" font-size="19" style="fill:#e03131">X = number of heads</text>
+  <text class="t" x="560" y="120" font-size="19">PMF:  P(X = x)</text>
+  <text class="t" x="560" y="145" font-size="15" style="fill:#868e96">bars add up to 8/8 = 1</text>
+  <text class="t" x="200" y="422" font-size="15" style="fill:#868e96">the random variable X turns each outcome into a number</text>
+</svg>

@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 380" width="900" height="380">
+  <defs>
+    <filter id="rough" x="-5%" y="-5%" width="110%" height="110%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.02" numOctaves="3" seed="67" result="noise"/>
+      <feDisplacementMap in="SourceGraphic" in2="noise" scale="4"/>
+    </filter>
+    <pattern id="hatchRed" width="9" height="9" patternUnits="userSpaceOnUse" patternTransform="rotate(-45)">
+      <line x1="0" y1="0" x2="0" y2="9" stroke="#e03131" stroke-width="1.8"/>
+    </pattern>
+    <style>
+      .t { font-family: Virgil, "Segoe Print", "Comic Sans MS", "Chalkboard SE", cursive; fill: #1e1e1e; }
+    </style>
+  </defs>
+  <rect width="900" height="380" fill="#ffffff"/>
+
+  <g filter="url(#rough)" stroke="#1e1e1e" stroke-width="2" fill="none" stroke-linecap="round">
+    <path d="M100 340 L720 340 M711.0 344.3 L720 340 L711.0 335.7" stroke="#1e1e1e"/>
+    <path d="M100 350 L100 40 M104.3 49.0 L100 40 L95.7 49.0" stroke="#1e1e1e"/>
+    <path d="M95 60 L105 60"/>
+    <path d="M100.0 339.6 L115.0 339.4 L130.0 339.0 L145.0 338.5 L160.0 337.7 L175.0 336.6 L190.0 335.0 L205.0 332.8 L220.0 329.9 L235.0 326.1 L250.0 321.3 L265.0 315.2 L280.0 307.8 L295.0 298.9 L310.0 288.5 L325.0 276.5 L340.0 263.2 L355.0 248.6 L370.0 233.0 L385.0 216.7 L400.0 200.0 L415.0 183.3 L430.0 167.0 L445.0 151.4 L460.0 136.8 L475.0 123.5 L490.0 111.5 L505.0 101.1 L520.0 92.2 L535.0 84.8 L550.0 78.7 L565.0 73.9 L580.0 70.1 L595.0 67.2 L610.0 65.0 L625.0 63.4 L640.0 62.3 L655.0 61.5 L670.0 61.0 L685.0 60.6 L700.0 60.4" stroke="#1971c2" stroke-width="3"/>
+    <path d="M100 312 L271.8 312 L271.8 340" stroke="#9c36b5" stroke-dasharray="6 5"/>
+    <circle cx="271.8" cy="340" r="6" fill="#e03131" stroke="#e03131"/>
+    <path d="M100 256 L347.6 256 L347.6 340" stroke="#9c36b5" stroke-dasharray="6 5"/>
+    <circle cx="347.6" cy="340" r="6" fill="#e03131" stroke="#e03131"/>
+    <path d="M100 200 L400 200 L400 340" stroke="#9c36b5" stroke-dasharray="6 5"/>
+    <circle cx="400" cy="340" r="6" fill="#e03131" stroke="#e03131"/>
+    <path d="M100 144 L452.4 144 L452.4 340" stroke="#9c36b5" stroke-dasharray="6 5"/>
+    <circle cx="452.4" cy="340" r="6" fill="#e03131" stroke="#e03131"/>
+    <path d="M100 88 L528.2 88 L528.2 340" stroke="#9c36b5" stroke-dasharray="6 5"/>
+    <circle cx="528.2" cy="340" r="6" fill="#e03131" stroke="#e03131"/>
+  </g>
+
+  <text class="t" x="20" y="28" font-size="19">Sampling from a normal with its CDF (inverse transform)</text>
+  <text class="t" x="62" y="317" font-size="14" style="fill:#9c36b5">0.1</text>
+  <text class="t" x="62" y="261" font-size="14" style="fill:#9c36b5">0.3</text>
+  <text class="t" x="62" y="205" font-size="14" style="fill:#9c36b5">0.5</text>
+  <text class="t" x="62" y="149" font-size="14" style="fill:#9c36b5">0.7</text>
+  <text class="t" x="62" y="93" font-size="14" style="fill:#9c36b5">0.9</text>
+  <text class="t" x="85" y="65" font-size="14">1</text>
+  <text class="t" x="85" y="345" font-size="14">0</text>
+  <text class="t" x="110" y="52" font-size="15" style="fill:#9c36b5">u ~ Uniform(0, 1)</text>
+  <text class="t" x="560" y="330" font-size="15" style="fill:#e03131">x samples</text>
+  <text class="t" x="560" y="108" font-size="16" style="fill:#1971c2">CDF  F(x)</text>
+  <text class="t" x="740" y="90" font-size="15">1. pick u in [0, 1]</text>
+  <text class="t" x="740" y="118" font-size="15">2. go across to</text>
+  <text class="t" x="760" y="140" font-size="15">the CDF</text>
+  <text class="t" x="740" y="170" font-size="15">3. drop down → x</text>
+  <text class="t" x="740" y="215" font-size="18" style="fill:#e03131">x = F⁻¹(u)</text>
+  <text class="t" x="740" y="262" font-size="14" style="fill:#868e96">samples bunch up</text>
+  <text class="t" x="740" y="284" font-size="14" style="fill:#868e96">where the CDF is</text>
+  <text class="t" x="740" y="306" font-size="14" style="fill:#868e96">steep (the middle)</text>
+</svg>

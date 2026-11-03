@@ -1,0 +1,131 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 390" width="880" height="390">
+  <defs>
+    <filter id="rough" x="-5%" y="-5%" width="110%" height="110%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.02" numOctaves="3" seed="47" result="noise"/>
+      <feDisplacementMap in="SourceGraphic" in2="noise" scale="4"/>
+    </filter>
+    <pattern id="hatchRed" width="9" height="9" patternUnits="userSpaceOnUse" patternTransform="rotate(-45)">
+      <line x1="0" y1="0" x2="0" y2="9" stroke="#e03131" stroke-width="1.8"/>
+    </pattern>
+    <style>
+      .t { font-family: Virgil, "Segoe Print", "Comic Sans MS", "Chalkboard SE", cursive; fill: #1e1e1e; }
+    </style>
+  </defs>
+  <rect width="880" height="390" fill="#ffffff"/>
+
+  <g filter="url(#rough)" stroke="#1e1e1e" stroke-width="2" fill="none" stroke-linecap="round">
+    <rect x="40" y="70" width="28" height="34" rx="5" fill="#a5d8ff" stroke="#1971c2"/>
+    <rect x="72" y="70" width="28" height="34" rx="5" fill="#a5d8ff" stroke="#1971c2"/>
+    <rect x="104" y="70" width="28" height="34" rx="5" fill="#ffec99" stroke="#f08c00"/>
+    <rect x="136" y="70" width="28" height="34" rx="5" fill="#ffec99" stroke="#f08c00"/>
+    <rect x="168" y="70" width="28" height="34" rx="5" fill="#ffec99" stroke="#f08c00"/>
+    <rect x="40" y="118" width="28" height="34" rx="5" fill="#a5d8ff" stroke="#1971c2"/>
+    <rect x="72" y="118" width="28" height="34" rx="5" fill="#ffec99" stroke="#f08c00"/>
+    <rect x="104" y="118" width="28" height="34" rx="5" fill="#a5d8ff" stroke="#1971c2"/>
+    <rect x="136" y="118" width="28" height="34" rx="5" fill="#ffec99" stroke="#f08c00"/>
+    <rect x="168" y="118" width="28" height="34" rx="5" fill="#ffec99" stroke="#f08c00"/>
+    <rect x="40" y="166" width="28" height="34" rx="5" fill="#a5d8ff" stroke="#1971c2"/>
+    <rect x="72" y="166" width="28" height="34" rx="5" fill="#ffec99" stroke="#f08c00"/>
+    <rect x="104" y="166" width="28" height="34" rx="5" fill="#ffec99" stroke="#f08c00"/>
+    <rect x="136" y="166" width="28" height="34" rx="5" fill="#a5d8ff" stroke="#1971c2"/>
+    <rect x="168" y="166" width="28" height="34" rx="5" fill="#ffec99" stroke="#f08c00"/>
+    <rect x="40" y="214" width="28" height="34" rx="5" fill="#a5d8ff" stroke="#1971c2"/>
+    <rect x="72" y="214" width="28" height="34" rx="5" fill="#ffec99" stroke="#f08c00"/>
+    <rect x="104" y="214" width="28" height="34" rx="5" fill="#ffec99" stroke="#f08c00"/>
+    <rect x="136" y="214" width="28" height="34" rx="5" fill="#ffec99" stroke="#f08c00"/>
+    <rect x="168" y="214" width="28" height="34" rx="5" fill="#a5d8ff" stroke="#1971c2"/>
+    <rect x="40" y="262" width="28" height="34" rx="5" fill="#ffec99" stroke="#f08c00"/>
+    <rect x="72" y="262" width="28" height="34" rx="5" fill="#a5d8ff" stroke="#1971c2"/>
+    <rect x="104" y="262" width="28" height="34" rx="5" fill="#a5d8ff" stroke="#1971c2"/>
+    <rect x="136" y="262" width="28" height="34" rx="5" fill="#ffec99" stroke="#f08c00"/>
+    <rect x="168" y="262" width="28" height="34" rx="5" fill="#ffec99" stroke="#f08c00"/>
+    <rect x="240" y="70" width="28" height="34" rx="5" fill="#ffec99" stroke="#f08c00"/>
+    <rect x="272" y="70" width="28" height="34" rx="5" fill="#a5d8ff" stroke="#1971c2"/>
+    <rect x="304" y="70" width="28" height="34" rx="5" fill="#ffec99" stroke="#f08c00"/>
+    <rect x="336" y="70" width="28" height="34" rx="5" fill="#a5d8ff" stroke="#1971c2"/>
+    <rect x="368" y="70" width="28" height="34" rx="5" fill="#ffec99" stroke="#f08c00"/>
+    <rect x="240" y="118" width="28" height="34" rx="5" fill="#ffec99" stroke="#f08c00"/>
+    <rect x="272" y="118" width="28" height="34" rx="5" fill="#a5d8ff" stroke="#1971c2"/>
+    <rect x="304" y="118" width="28" height="34" rx="5" fill="#ffec99" stroke="#f08c00"/>
+    <rect x="336" y="118" width="28" height="34" rx="5" fill="#ffec99" stroke="#f08c00"/>
+    <rect x="368" y="118" width="28" height="34" rx="5" fill="#a5d8ff" stroke="#1971c2"/>
+    <rect x="240" y="166" width="28" height="34" rx="5" fill="#ffec99" stroke="#f08c00"/>
+    <rect x="272" y="166" width="28" height="34" rx="5" fill="#ffec99" stroke="#f08c00"/>
+    <rect x="304" y="166" width="28" height="34" rx="5" fill="#a5d8ff" stroke="#1971c2"/>
+    <rect x="336" y="166" width="28" height="34" rx="5" fill="#a5d8ff" stroke="#1971c2"/>
+    <rect x="368" y="166" width="28" height="34" rx="5" fill="#ffec99" stroke="#f08c00"/>
+    <rect x="240" y="214" width="28" height="34" rx="5" fill="#ffec99" stroke="#f08c00"/>
+    <rect x="272" y="214" width="28" height="34" rx="5" fill="#ffec99" stroke="#f08c00"/>
+    <rect x="304" y="214" width="28" height="34" rx="5" fill="#a5d8ff" stroke="#1971c2"/>
+    <rect x="336" y="214" width="28" height="34" rx="5" fill="#ffec99" stroke="#f08c00"/>
+    <rect x="368" y="214" width="28" height="34" rx="5" fill="#a5d8ff" stroke="#1971c2"/>
+    <rect x="240" y="262" width="28" height="34" rx="5" fill="#ffec99" stroke="#f08c00"/>
+    <rect x="272" y="262" width="28" height="34" rx="5" fill="#ffec99" stroke="#f08c00"/>
+    <rect x="304" y="262" width="28" height="34" rx="5" fill="#ffec99" stroke="#f08c00"/>
+    <rect x="336" y="262" width="28" height="34" rx="5" fill="#a5d8ff" stroke="#1971c2"/>
+    <rect x="368" y="262" width="28" height="34" rx="5" fill="#a5d8ff" stroke="#1971c2"/>
+    <rect x="455" y="265" width="410" height="38" rx="10" stroke="#e03131" fill="#ffc9c9" fill-opacity="0.4"/>
+  </g>
+
+  <text class="t" x="47" y="94" font-size="16">H</text>
+  <text class="t" x="79" y="94" font-size="16">H</text>
+  <text class="t" x="111" y="94" font-size="16">T</text>
+  <text class="t" x="143" y="94" font-size="16">T</text>
+  <text class="t" x="175" y="94" font-size="16">T</text>
+  <text class="t" x="47" y="142" font-size="16">H</text>
+  <text class="t" x="79" y="142" font-size="16">T</text>
+  <text class="t" x="111" y="142" font-size="16">H</text>
+  <text class="t" x="143" y="142" font-size="16">T</text>
+  <text class="t" x="175" y="142" font-size="16">T</text>
+  <text class="t" x="47" y="190" font-size="16">H</text>
+  <text class="t" x="79" y="190" font-size="16">T</text>
+  <text class="t" x="111" y="190" font-size="16">T</text>
+  <text class="t" x="143" y="190" font-size="16">H</text>
+  <text class="t" x="175" y="190" font-size="16">T</text>
+  <text class="t" x="47" y="238" font-size="16">H</text>
+  <text class="t" x="79" y="238" font-size="16">T</text>
+  <text class="t" x="111" y="238" font-size="16">T</text>
+  <text class="t" x="143" y="238" font-size="16">T</text>
+  <text class="t" x="175" y="238" font-size="16">H</text>
+  <text class="t" x="47" y="286" font-size="16">T</text>
+  <text class="t" x="79" y="286" font-size="16">H</text>
+  <text class="t" x="111" y="286" font-size="16">H</text>
+  <text class="t" x="143" y="286" font-size="16">T</text>
+  <text class="t" x="175" y="286" font-size="16">T</text>
+  <text class="t" x="247" y="94" font-size="16">T</text>
+  <text class="t" x="279" y="94" font-size="16">H</text>
+  <text class="t" x="311" y="94" font-size="16">T</text>
+  <text class="t" x="343" y="94" font-size="16">H</text>
+  <text class="t" x="375" y="94" font-size="16">T</text>
+  <text class="t" x="247" y="142" font-size="16">T</text>
+  <text class="t" x="279" y="142" font-size="16">H</text>
+  <text class="t" x="311" y="142" font-size="16">T</text>
+  <text class="t" x="343" y="142" font-size="16">T</text>
+  <text class="t" x="375" y="142" font-size="16">H</text>
+  <text class="t" x="247" y="190" font-size="16">T</text>
+  <text class="t" x="279" y="190" font-size="16">T</text>
+  <text class="t" x="311" y="190" font-size="16">H</text>
+  <text class="t" x="343" y="190" font-size="16">H</text>
+  <text class="t" x="375" y="190" font-size="16">T</text>
+  <text class="t" x="247" y="238" font-size="16">T</text>
+  <text class="t" x="279" y="238" font-size="16">T</text>
+  <text class="t" x="311" y="238" font-size="16">H</text>
+  <text class="t" x="343" y="238" font-size="16">T</text>
+  <text class="t" x="375" y="238" font-size="16">H</text>
+  <text class="t" x="247" y="286" font-size="16">T</text>
+  <text class="t" x="279" y="286" font-size="16">T</text>
+  <text class="t" x="311" y="286" font-size="16">T</text>
+  <text class="t" x="343" y="286" font-size="16">H</text>
+  <text class="t" x="375" y="286" font-size="16">H</text>
+  <text class="t" x="20" y="35" font-size="19">All the ways to get 2 heads in 5 flips</text>
+  <text class="t" x="130" y="335" font-size="17" style="fill:#e03131">10 arrangements</text>
+  <text class="t" x="470" y="80" font-size="17">If all 5 coins were different:</text>
+  <text class="t" x="490" y="108" font-size="17" style="fill:#1971c2">5! = 120 orderings</text>
+  <text class="t" x="470" y="148" font-size="17">But the 2 H's look identical</text>
+  <text class="t" x="490" y="174" font-size="17" style="fill:#1971c2">→ divide by 2! = 2</text>
+  <text class="t" x="470" y="212" font-size="17">and the 3 T's look identical</text>
+  <text class="t" x="490" y="238" font-size="17" style="fill:#f08c00">→ divide by 3! = 6</text>
+  <text class="t" x="470" y="290" font-size="18" style="fill:#e03131">C(5, 2) = 5! / (2! · 3!) = 120 / 12 = 10</text>
+  <text class="t" x="470" y="340" font-size="16" style="fill:#868e96">each arrangement: (1/2)⁵ = 1/32</text>
+  <text class="t" x="470" y="366" font-size="18">P(2 heads) = 10 × 1/32 = 10/32</text>
+</svg>
