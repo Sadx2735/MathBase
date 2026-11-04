@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 420" width="880" height="420">
+  <defs>
+    <filter id="rough" x="-5%" y="-5%" width="110%" height="110%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.02" numOctaves="3" seed="73" result="noise"/>
+      <feDisplacementMap in="SourceGraphic" in2="noise" scale="4"/>
+    </filter>
+    <pattern id="hatch-red" width="9" height="9" patternUnits="userSpaceOnUse" patternTransform="rotate(-45)"><line x1="0" y1="0" x2="0" y2="9" stroke="#e03131" stroke-width="1.7"/></pattern>
+    <pattern id="hatch-blue" width="9" height="9" patternUnits="userSpaceOnUse" patternTransform="rotate(-45)"><line x1="0" y1="0" x2="0" y2="9" stroke="#1971c2" stroke-width="1.7"/></pattern>
+    <pattern id="hatch-green" width="9" height="9" patternUnits="userSpaceOnUse" patternTransform="rotate(-45)"><line x1="0" y1="0" x2="0" y2="9" stroke="#2f9e44" stroke-width="1.7"/></pattern>
+    <pattern id="hatch-orange" width="9" height="9" patternUnits="userSpaceOnUse" patternTransform="rotate(-45)"><line x1="0" y1="0" x2="0" y2="9" stroke="#f08c00" stroke-width="1.7"/></pattern>
+    <pattern id="hatch-purple" width="9" height="9" patternUnits="userSpaceOnUse" patternTransform="rotate(-45)"><line x1="0" y1="0" x2="0" y2="9" stroke="#9c36b5" stroke-width="1.7"/></pattern>
+    <pattern id="hatch-grey" width="9" height="9" patternUnits="userSpaceOnUse" patternTransform="rotate(-45)"><line x1="0" y1="0" x2="0" y2="9" stroke="#adb5bd" stroke-width="1.7"/></pattern>
+
+    <style>
+      .t { font-family: Virgil, "Segoe Print", "Comic Sans MS", "Chalkboard SE", "Comic Neue", cursive; fill: #1e1e1e; }
+    </style>
+  </defs>
+  <rect width="880" height="420" fill="#ffffff"/>
+
+  <g filter="url(#rough)" stroke="#1e1e1e" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M80.0 330.0 L89.0 275.9 L98.0 232.1 L107.0 197.1 L116.0 169.7 L125.0 148.6 L134.0 133.1 L143.0 122.1 L152.0 115.0 L161.0 111.2 L170.0 110.0 L179.0 111.0 L188.0 113.9 L197.0 118.1 L206.0 123.5 L215.0 129.8 L224.0 136.8 L233.0 144.3 L242.0 152.1 L251.0 160.1 L260.0 168.1 L269.0 176.2 L278.0 184.2 L287.0 192.1 L296.0 199.8 L305.0 207.3 L314.0 214.5 L323.0 221.5 L332.0 228.2 L341.0 234.6 L350.0 240.7 L359.0 246.5 L368.0 252.0 L377.0 257.2 L386.0 262.1 L395.0 266.8 L404.0 271.2 L413.0 275.3 L422.0 279.2 L431.0 282.8 L440.0 286.2 L449.0 289.4 L458.0 292.3 L467.0 295.1 L476.0 297.7 L485.0 300.1 L494.0 302.3 L503.0 304.4 L512.0 306.4 L521.0 308.2 L530.0 309.9 L539.0 311.4 L548.0 312.8 L557.0 314.2 L566.0 315.4 L575.0 316.6 L584.0 317.6 L593.0 318.6 L602.0 319.5 L611.0 320.3 L620.0 321.1 L629.0 321.8 L638.0 322.5 L647.0 323.1 L656.0 323.6 L665.0 324.2 L674.0 324.6 L683.0 325.1 L692.0 325.5 L701.0 325.8 L710.0 326.2 L719.0 326.5 L728.0 326.8 L737.0 327.1 L746.0 327.3 L755.0 327.5 L764.0 327.7 L773.0 327.9 L782.0 328.1 L791.0 328.2 L800.0 328.4 L800.0 330 L80.0 330 Z" stroke="#1971c2" stroke-width="1.5" fill="#a5d8ff"/>
+    <path d="M80.0 330.0 L89.0 275.9 L98.0 232.1 L107.0 197.1 L116.0 169.7 L125.0 148.6 L134.0 133.1 L143.0 122.1 L152.0 115.0 L161.0 111.2 L170.0 110.0 L179.0 111.0 L188.0 113.9 L197.0 118.1 L206.0 123.5 L215.0 129.8 L224.0 136.8 L233.0 144.3 L242.0 152.1 L251.0 160.1 L260.0 168.1 L269.0 176.2 L278.0 184.2 L287.0 192.1 L296.0 199.8 L305.0 207.3 L314.0 214.5 L323.0 221.5 L332.0 228.2 L341.0 234.6 L350.0 240.7 L359.0 246.5 L368.0 252.0 L377.0 257.2 L386.0 262.1 L395.0 266.8 L404.0 271.2 L413.0 275.3 L422.0 279.2 L431.0 282.8 L440.0 286.2 L449.0 289.4 L458.0 292.3 L467.0 295.1 L476.0 297.7 L485.0 300.1 L494.0 302.3 L503.0 304.4 L512.0 306.4 L521.0 308.2 L530.0 309.9 L539.0 311.4 L548.0 312.8 L557.0 314.2 L566.0 315.4 L575.0 316.6 L584.0 317.6 L593.0 318.6 L602.0 319.5 L611.0 320.3 L620.0 321.1 L629.0 321.8 L638.0 322.5 L647.0 323.1 L656.0 323.6 L665.0 324.2 L674.0 324.6 L683.0 325.1 L692.0 325.5 L701.0 325.8 L710.0 326.2 L719.0 326.5 L728.0 326.8 L737.0 327.1 L746.0 327.3 L755.0 327.5 L764.0 327.7 L773.0 327.9 L782.0 328.1 L791.0 328.2 L800.0 328.4" stroke="#1971c2" stroke-width="3" fill="none"/>
+    <line x1="70" y1="330" x2="830" y2="330" stroke="#1e1e1e" stroke-width="2"/>
+    <path d="M820.1 334.8 L830 330 L820.1 325.2" stroke="#1e1e1e" stroke-width="2" fill="none"/>
+    <line x1="170.0" y1="330" x2="170.0" y2="95" stroke="#2f9e44" stroke-width="2.5" stroke-dasharray="7 6"/>
+    <line x1="231.01999999999998" y1="330" x2="231.01999999999998" y2="95" stroke="#f08c00" stroke-width="2.5" stroke-dasharray="7 6"/>
+    <line x1="260.0" y1="330" x2="260.0" y2="95" stroke="#e03131" stroke-width="2.5" stroke-dasharray="7 6"/>
+    <path d="M514 194 Q 516.6 257.5 548.0 312.8450601173735" stroke="#9c36b5" stroke-width="2" fill="none"/>
+    <path d="M538.9 306.6 L548.0 312.8450601173735 L547.3 301.9" stroke="#9c36b5" stroke-width="2" fill="none"/>
+  </g>
+
+  <text class="t" x="20" y="30" font-size="20" >Skewed salaries: mode &lt; median &lt; mean</text>
+  <text class="t" x="162.0" y="82" font-size="16" text-anchor="end" style="fill:#2f9e44">mode</text>
+  <text class="t" x="231.01999999999998" y="82" font-size="16" text-anchor="middle" style="fill:#f08c00">median</text>
+  <text class="t" x="270.0" y="112" font-size="16" style="fill:#e03131">mean</text>
+  <text class="t" x="520" y="200" font-size="16" style="fill:#9c36b5">a few huge salaries (long tail)</text>
+  <text class="t" x="520" y="228" font-size="15" style="fill:#9c36b5">pull the mean to the right</text>
+  <text class="t" x="780" y="355" font-size="15" text-anchor="end">salary →</text>
+  <text class="t" x="40" y="380.0" font-size="14" style="fill:#868e96">mode = most common value · median = middle value (half below, half above) · mean = balance point</text>
+  <text class="t" x="40" y="399.6" font-size="14" style="fill:#868e96">for skewed data like salaries or house prices, the median is the honest 'typical' value</text>
+</svg>

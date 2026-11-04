@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 420" width="880" height="420">
+  <defs>
+    <filter id="rough" x="-5%" y="-5%" width="110%" height="110%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.02" numOctaves="3" seed="71" result="noise"/>
+      <feDisplacementMap in="SourceGraphic" in2="noise" scale="4"/>
+    </filter>
+    <pattern id="hatch-red" width="9" height="9" patternUnits="userSpaceOnUse" patternTransform="rotate(-45)"><line x1="0" y1="0" x2="0" y2="9" stroke="#e03131" stroke-width="1.7"/></pattern>
+    <pattern id="hatch-blue" width="9" height="9" patternUnits="userSpaceOnUse" patternTransform="rotate(-45)"><line x1="0" y1="0" x2="0" y2="9" stroke="#1971c2" stroke-width="1.7"/></pattern>
+    <pattern id="hatch-green" width="9" height="9" patternUnits="userSpaceOnUse" patternTransform="rotate(-45)"><line x1="0" y1="0" x2="0" y2="9" stroke="#2f9e44" stroke-width="1.7"/></pattern>
+    <pattern id="hatch-orange" width="9" height="9" patternUnits="userSpaceOnUse" patternTransform="rotate(-45)"><line x1="0" y1="0" x2="0" y2="9" stroke="#f08c00" stroke-width="1.7"/></pattern>
+    <pattern id="hatch-purple" width="9" height="9" patternUnits="userSpaceOnUse" patternTransform="rotate(-45)"><line x1="0" y1="0" x2="0" y2="9" stroke="#9c36b5" stroke-width="1.7"/></pattern>
+    <pattern id="hatch-grey" width="9" height="9" patternUnits="userSpaceOnUse" patternTransform="rotate(-45)"><line x1="0" y1="0" x2="0" y2="9" stroke="#adb5bd" stroke-width="1.7"/></pattern>
+
+    <style>
+      .t { font-family: Virgil, "Segoe Print", "Comic Sans MS", "Chalkboard SE", "Comic Neue", cursive; fill: #1e1e1e; }
+    </style>
+  </defs>
+  <rect width="880" height="420" fill="#ffffff"/>
+
+  <g filter="url(#rough)" stroke="#1e1e1e" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <rect x="118" y="248" width="44" height="32" rx="4" fill="#a5d8ff" stroke="#1971c2" stroke-width="2"/>
+    <rect x="118" y="216" width="44" height="32" rx="4" fill="#a5d8ff" stroke="#1971c2" stroke-width="2"/>
+    <rect x="118" y="184" width="44" height="32" rx="4" fill="#a5d8ff" stroke="#1971c2" stroke-width="2"/>
+    <rect x="318" y="248" width="44" height="32" rx="4" fill="#a5d8ff" stroke="#1971c2" stroke-width="2"/>
+    <rect x="318" y="216" width="44" height="32" rx="4" fill="#a5d8ff" stroke="#1971c2" stroke-width="2"/>
+    <rect x="518" y="248" width="44" height="32" rx="4" fill="#a5d8ff" stroke="#1971c2" stroke-width="2"/>
+    <rect x="518" y="216" width="44" height="32" rx="4" fill="#a5d8ff" stroke="#1971c2" stroke-width="2"/>
+    <rect x="518" y="184" width="44" height="32" rx="4" fill="#a5d8ff" stroke="#1971c2" stroke-width="2"/>
+    <rect x="518" y="152" width="44" height="32" rx="4" fill="#a5d8ff" stroke="#1971c2" stroke-width="2"/>
+    <rect x="718" y="248" width="44" height="32" rx="4" fill="#a5d8ff" stroke="#1971c2" stroke-width="2"/>
+    <line x1="90" y1="280" x2="790" y2="280" stroke="#1e1e1e" stroke-width="3"/>
+    <path d="M400.0 282 L378.0 322 L422.0 322 Z" stroke="#e03131" stroke-width="2.5" fill="#ffc9c9"/>
+    <path d="M414 389 Q 424.9 354.7 406.0 324" stroke="#e03131" stroke-width="2" fill="none"/>
+    <path d="M415.3 329.9 L406.0 324 L407.1 334.9" stroke="#e03131" stroke-width="2" fill="none"/>
+  </g>
+
+  <text class="t" x="20" y="30" font-size="20" >The mean is the balance point of the distribution</text>
+  <text class="t" x="140" y="172" font-size="15" text-anchor="middle" style="fill:#1971c2">3 kids</text>
+  <text class="t" x="340" y="204" font-size="15" text-anchor="middle" style="fill:#1971c2">2 kids</text>
+  <text class="t" x="540" y="140" font-size="15" text-anchor="middle" style="fill:#1971c2">4 kids</text>
+  <text class="t" x="740" y="236" font-size="15" text-anchor="middle" style="fill:#1971c2">1 kid</text>
+  <text class="t" x="140" y="350" font-size="16" text-anchor="middle">age 0</text>
+  <text class="t" x="340" y="350" font-size="16" text-anchor="middle">age 1</text>
+  <text class="t" x="540" y="350" font-size="16" text-anchor="middle">age 2</text>
+  <text class="t" x="740" y="350" font-size="16" text-anchor="middle">age 3</text>
+  <text class="t" x="420" y="395" font-size="16" style="fill:#e03131">mean = 1.3 → it balances here</text>
+  <text class="t" x="560" y="80.0" font-size="17" >E[X] = Σ x · P(x)</text>
+  <text class="t" x="560" y="103.8" font-size="17" >= 0×0.3 + 1×0.2 + 2×0.4 + 3×0.1</text>
+  <text class="t" x="560" y="127.6" font-size="17" >= 1.3</text>
+  <text class="t" x="610" y="180.0" font-size="14" style="fill:#868e96">far-away blocks have more</text>
+  <text class="t" x="610" y="199.6" font-size="14" style="fill:#868e96">leverage (like torque),</text>
+  <text class="t" x="610" y="219.2" font-size="14" style="fill:#868e96">so outliers drag the mean</text>
+</svg>
