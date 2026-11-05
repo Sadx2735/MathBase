@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 400" width="880" height="400">
+  <defs>
+    <filter id="rough" x="-5%" y="-5%" width="110%" height="110%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.02" numOctaves="3" seed="101" result="noise"/>
+      <feDisplacementMap in="SourceGraphic" in2="noise" scale="4"/>
+    </filter>
+    <pattern id="hatch-red" width="9" height="9" patternUnits="userSpaceOnUse" patternTransform="rotate(-45)"><line x1="0" y1="0" x2="0" y2="9" stroke="#e03131" stroke-width="1.7"/></pattern>
+    <pattern id="hatch-blue" width="9" height="9" patternUnits="userSpaceOnUse" patternTransform="rotate(-45)"><line x1="0" y1="0" x2="0" y2="9" stroke="#1971c2" stroke-width="1.7"/></pattern>
+    <pattern id="hatch-green" width="9" height="9" patternUnits="userSpaceOnUse" patternTransform="rotate(-45)"><line x1="0" y1="0" x2="0" y2="9" stroke="#2f9e44" stroke-width="1.7"/></pattern>
+    <pattern id="hatch-orange" width="9" height="9" patternUnits="userSpaceOnUse" patternTransform="rotate(-45)"><line x1="0" y1="0" x2="0" y2="9" stroke="#f08c00" stroke-width="1.7"/></pattern>
+    <pattern id="hatch-purple" width="9" height="9" patternUnits="userSpaceOnUse" patternTransform="rotate(-45)"><line x1="0" y1="0" x2="0" y2="9" stroke="#9c36b5" stroke-width="1.7"/></pattern>
+    <pattern id="hatch-grey" width="9" height="9" patternUnits="userSpaceOnUse" patternTransform="rotate(-45)"><line x1="0" y1="0" x2="0" y2="9" stroke="#adb5bd" stroke-width="1.7"/></pattern>
+
+    <style>
+      .t { font-family: Virgil, "Segoe Print", "Comic Sans MS", "Chalkboard SE", "Comic Neue", cursive; fill: #1e1e1e; }
+    </style>
+  </defs>
+  <rect width="880" height="400" fill="#ffffff"/>
+
+  <g filter="url(#rough)" stroke="#1e1e1e" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <rect x="60" y="150" width="40" height="40" rx="0" fill="#74c0fc" stroke="#1e1e1e" stroke-width="1.6"/>
+    <rect x="100" y="150" width="40" height="40" rx="0" fill="#8ce99a" stroke="#1e1e1e" stroke-width="1.6"/>
+    <rect x="140" y="150" width="40" height="40" rx="0" fill="#ffd43b" stroke="#1e1e1e" stroke-width="1.6"/>
+    <rect x="60" y="190" width="40" height="40" rx="0" fill="#ff8787" stroke="#1e1e1e" stroke-width="1.6"/>
+    <rect x="100" y="190" width="40" height="40" rx="0" fill="#da77f2" stroke="#1e1e1e" stroke-width="1.6"/>
+    <rect x="140" y="190" width="40" height="40" rx="0" fill="#74c0fc" stroke="#1e1e1e" stroke-width="1.6"/>
+    <rect x="60" y="230" width="40" height="40" rx="0" fill="#ffd43b" stroke="#1e1e1e" stroke-width="1.6"/>
+    <rect x="100" y="230" width="40" height="40" rx="0" fill="#8ce99a" stroke="#1e1e1e" stroke-width="1.6"/>
+    <rect x="140" y="230" width="40" height="40" rx="0" fill="#ff8787" stroke="#1e1e1e" stroke-width="1.6"/>
+    <rect x="520" y="70" width="40" height="40" rx="0" fill="#d0ebff" stroke="#1e1e1e" stroke-width="1.6"/>
+    <rect x="560" y="70" width="40" height="40" rx="0" fill="#d3f9d8" stroke="#1e1e1e" stroke-width="1.6"/>
+    <rect x="600" y="70" width="40" height="40" rx="0" fill="#fff3bf" stroke="#1e1e1e" stroke-width="1.6"/>
+    <rect x="520" y="110" width="40" height="40" rx="0" fill="#ffe3e3" stroke="#1e1e1e" stroke-width="1.6"/>
+    <rect x="560" y="110" width="40" height="40" rx="0" fill="#f3d9fa" stroke="#1e1e1e" stroke-width="1.6"/>
+    <rect x="600" y="110" width="40" height="40" rx="0" fill="#d0ebff" stroke="#1e1e1e" stroke-width="1.6"/>
+    <rect x="520" y="150" width="40" height="40" rx="0" fill="#fff3bf" stroke="#1e1e1e" stroke-width="1.6"/>
+    <rect x="560" y="150" width="40" height="40" rx="0" fill="#d3f9d8" stroke="#1e1e1e" stroke-width="1.6"/>
+    <rect x="600" y="150" width="40" height="40" rx="0" fill="#ffe3e3" stroke="#1e1e1e" stroke-width="1.6"/>
+    <rect x="520" y="240" width="60" height="40" rx="0" fill="#74c0fc" stroke="#1e1e1e" stroke-width="1.6"/>
+    <rect x="580" y="240" width="60" height="40" rx="0" fill="#8ce99a" stroke="#1e1e1e" stroke-width="1.6"/>
+    <rect x="640" y="240" width="60" height="40" rx="0" fill="#ffd43b" stroke="#1e1e1e" stroke-width="1.6"/>
+    <rect x="520" y="280" width="60" height="40" rx="0" fill="#ff8787" stroke="#1e1e1e" stroke-width="1.6"/>
+    <rect x="580" y="280" width="60" height="40" rx="0" fill="#da77f2" stroke="#1e1e1e" stroke-width="1.6"/>
+    <rect x="640" y="280" width="60" height="40" rx="0" fill="#74c0fc" stroke="#1e1e1e" stroke-width="1.6"/>
+    <rect x="520" y="320" width="60" height="40" rx="0" fill="#ffd43b" stroke="#1e1e1e" stroke-width="1.6"/>
+    <rect x="580" y="320" width="60" height="40" rx="0" fill="#8ce99a" stroke="#1e1e1e" stroke-width="1.6"/>
+    <rect x="640" y="320" width="60" height="40" rx="0" fill="#ff8787" stroke="#1e1e1e" stroke-width="1.6"/>
+    <path d="M190 180 Q 343.2 125.5 505 110" stroke="#f08c00" stroke-width="2" fill="none"/>
+    <path d="M495.6 115.7 L505 110 L494.7 106.2" stroke="#f08c00" stroke-width="2" fill="none"/>
+    <path d="M190 230 Q 344.4 274.8 505 280" stroke="#9c36b5" stroke-width="2" fill="none"/>
+    <path d="M494.9 284.5 L505 280 L495.3 274.9" stroke="#9c36b5" stroke-width="2" fill="none"/>
+  </g>
+
+  <text class="t" x="20" y="30" font-size="20" >Two ways to change an image f(x, y)</text>
+  <text class="t" x="60" y="135" font-size="16" >original</text>
+  <text class="t" x="250" y="100" font-size="18" style="fill:#f08c00">filtering</text>
+  <text class="t" x="250" y="330" font-size="18" style="fill:#9c36b5">warping</text>
+  <text class="t" x="670" y="85.0" font-size="15" style="fill:#f08c00">g = T( f(x, y) )</text>
+  <text class="t" x="670" y="106.0" font-size="15" style="fill:#f08c00">VALUES change</text>
+  <text class="t" x="670" y="127.0" font-size="15" style="fill:#f08c00">positions stay</text>
+  <text class="t" x="670" y="148.0" font-size="15" style="fill:#f08c00">brightness, blur</text>
+  <text class="t" x="715" y="255.0" font-size="14" style="fill:#9c36b5">g = f( T(x, y) )</text>
+  <text class="t" x="715" y="274.6" font-size="14" style="fill:#9c36b5">POSITIONS change</text>
+  <text class="t" x="715" y="294.2" font-size="14" style="fill:#9c36b5">values stay</text>
+  <text class="t" x="715" y="313.8" font-size="14" style="fill:#9c36b5">scale, rotate</text>
+  <text class="t" x="60" y="380" font-size="14" style="fill:#868e96">filtering: +50 brightness, nothing moves.  warping: pixel at (10, 20) shows at (20, 40), same colour.</text>
+</svg>

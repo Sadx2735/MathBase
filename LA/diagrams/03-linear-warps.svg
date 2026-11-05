@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 420" width="880" height="420">
+  <defs>
+    <filter id="rough" x="-5%" y="-5%" width="110%" height="110%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.02" numOctaves="3" seed="107" result="noise"/>
+      <feDisplacementMap in="SourceGraphic" in2="noise" scale="4"/>
+    </filter>
+    <pattern id="hatch-red" width="9" height="9" patternUnits="userSpaceOnUse" patternTransform="rotate(-45)"><line x1="0" y1="0" x2="0" y2="9" stroke="#e03131" stroke-width="1.7"/></pattern>
+    <pattern id="hatch-blue" width="9" height="9" patternUnits="userSpaceOnUse" patternTransform="rotate(-45)"><line x1="0" y1="0" x2="0" y2="9" stroke="#1971c2" stroke-width="1.7"/></pattern>
+    <pattern id="hatch-green" width="9" height="9" patternUnits="userSpaceOnUse" patternTransform="rotate(-45)"><line x1="0" y1="0" x2="0" y2="9" stroke="#2f9e44" stroke-width="1.7"/></pattern>
+    <pattern id="hatch-orange" width="9" height="9" patternUnits="userSpaceOnUse" patternTransform="rotate(-45)"><line x1="0" y1="0" x2="0" y2="9" stroke="#f08c00" stroke-width="1.7"/></pattern>
+    <pattern id="hatch-purple" width="9" height="9" patternUnits="userSpaceOnUse" patternTransform="rotate(-45)"><line x1="0" y1="0" x2="0" y2="9" stroke="#9c36b5" stroke-width="1.7"/></pattern>
+    <pattern id="hatch-grey" width="9" height="9" patternUnits="userSpaceOnUse" patternTransform="rotate(-45)"><line x1="0" y1="0" x2="0" y2="9" stroke="#adb5bd" stroke-width="1.7"/></pattern>
+
+    <style>
+      .t { font-family: Virgil, "Segoe Print", "Comic Sans MS", "Chalkboard SE", "Comic Neue", cursive; fill: #1e1e1e; }
+    </style>
+  </defs>
+  <rect width="880" height="420" fill="#ffffff"/>
+
+  <g filter="url(#rough)" stroke="#1e1e1e" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <rect x="20" y="50" width="200" height="250" rx="14" fill="none" stroke="#ced4da" stroke-width="2"/>
+    <line x1="30" y1="250" x2="210" y2="250" stroke="#ced4da" stroke-width="1"/>
+    <line x1="80" y1="95" x2="80" y2="290" stroke="#ced4da" stroke-width="1"/>
+    <path d="M80.0 250.0 L80.0 178.0 L123.2 178.0 L123.2 192.4 L94.4 192.4 L94.4 206.8 L116.0 206.8 L116.0 221.2 L94.4 221.2 L94.4 250.0 Z" stroke="#adb5bd" stroke-width="2" fill="none" stroke-dasharray="5 4"/>
+    <path d="M80.0 250.0 L80.0 178.0 L166.4 178.0 L166.4 192.4 L108.8 192.4 L108.8 206.8 L152.0 206.8 L152.0 221.2 L108.8 221.2 L108.8 250.0 Z" stroke="#1971c2" stroke-width="2.5" fill="#a5d8ff" fill-opacity="0.7"/>
+    <path d="M75 315 L67 315 L67 371 L75 371" stroke="#1e1e1e" stroke-width="2" fill="none"/>
+    <path d="M153 315 L161 315 L161 371 L153 371" stroke="#1e1e1e" stroke-width="2" fill="none"/>
+    <rect x="235" y="50" width="200" height="250" rx="14" fill="none" stroke="#ced4da" stroke-width="2"/>
+    <line x1="245" y1="250" x2="425" y2="250" stroke="#ced4da" stroke-width="1"/>
+    <line x1="375" y1="95" x2="375" y2="290" stroke="#ced4da" stroke-width="1"/>
+    <path d="M375.0 250.0 L375.0 178.0 L418.2 178.0 L418.2 192.4 L389.4 192.4 L389.4 206.8 L411.0 206.8 L411.0 221.2 L389.4 221.2 L389.4 250.0 Z" stroke="#adb5bd" stroke-width="2" fill="none" stroke-dasharray="5 4"/>
+    <path d="M375.0 250.0 L303.0 250.0 L303.0 206.8 L317.4 206.8 L317.4 235.6 L331.8 235.6 L331.8 214.0 L346.2 214.0 L346.2 235.6 L375.0 235.6 Z" stroke="#2f9e44" stroke-width="2.5" fill="#b2f2bb" fill-opacity="0.7"/>
+    <path d="M290 315 L282 315 L282 371 L290 371" stroke="#1e1e1e" stroke-width="2" fill="none"/>
+    <path d="M368 315 L376 315 L376 371 L368 371" stroke="#1e1e1e" stroke-width="2" fill="none"/>
+    <rect x="450" y="50" width="200" height="250" rx="14" fill="none" stroke="#ced4da" stroke-width="2"/>
+    <line x1="460" y1="250" x2="640" y2="250" stroke="#ced4da" stroke-width="1"/>
+    <line x1="510" y1="95" x2="510" y2="290" stroke="#ced4da" stroke-width="1"/>
+    <path d="M510.0 250.0 L510.0 178.0 L553.2 178.0 L553.2 192.4 L524.4 192.4 L524.4 206.8 L546.0 206.8 L546.0 221.2 L524.4 221.2 L524.4 250.0 Z" stroke="#adb5bd" stroke-width="2" fill="none" stroke-dasharray="5 4"/>
+    <path d="M510.0 250.0 L546.0 178.0 L589.2 178.0 L582.0 192.4 L553.2 192.4 L546.0 206.8 L567.6 206.8 L560.4 221.2 L538.8 221.2 L524.4 250.0 Z" stroke="#f08c00" stroke-width="2.5" fill="#ffec99" fill-opacity="0.7"/>
+    <path d="M505 315 L497 315 L497 371 L505 371" stroke="#1e1e1e" stroke-width="2" fill="none"/>
+    <path d="M583 315 L591 315 L591 371 L583 371" stroke="#1e1e1e" stroke-width="2" fill="none"/>
+    <rect x="665" y="50" width="200" height="250" rx="14" fill="none" stroke="#ced4da" stroke-width="2"/>
+    <line x1="675" y1="250" x2="855" y2="250" stroke="#ced4da" stroke-width="1"/>
+    <line x1="805" y1="95" x2="805" y2="290" stroke="#ced4da" stroke-width="1"/>
+    <path d="M805.0 250.0 L805.0 178.0 L848.2 178.0 L848.2 192.4 L819.4 192.4 L819.4 206.8 L841.0 206.8 L841.0 221.2 L819.4 221.2 L819.4 250.0 Z" stroke="#adb5bd" stroke-width="2" fill="none" stroke-dasharray="5 4"/>
+    <path d="M805.0 250.0 L805.0 178.0 L761.8 178.0 L761.8 192.4 L790.6 192.4 L790.6 206.8 L769.0 206.8 L769.0 221.2 L790.6 221.2 L790.6 250.0 Z" stroke="#e03131" stroke-width="2.5" fill="#ffc9c9" fill-opacity="0.7"/>
+    <path d="M720 315 L712 315 L712 371 L720 371" stroke="#1e1e1e" stroke-width="2" fill="none"/>
+    <path d="M798 315 L806 315 L806 371 L798 371" stroke="#1e1e1e" stroke-width="2" fill="none"/>
+  </g>
+
+  <text class="t" x="20" y="30" font-size="20" >The four basic 2×2 warps (grey = before, colour = after)</text>
+  <text class="t" x="120" y="76" font-size="17" text-anchor="middle" style="fill:#1971c2">scale</text>
+  <text class="t" x="92.0" y="335" font-size="16" text-anchor="middle">2</text>
+  <text class="t" x="138.0" y="335" font-size="16" text-anchor="middle">0</text>
+  <text class="t" x="92.0" y="361" font-size="16" text-anchor="middle">0</text>
+  <text class="t" x="138.0" y="361" font-size="16" text-anchor="middle">1</text>
+  <text class="t" x="120" y="405" font-size="14" text-anchor="middle" style="fill:#868e96">det = 2</text>
+  <text class="t" x="335" y="76" font-size="17" text-anchor="middle" style="fill:#2f9e44">rotate 90°</text>
+  <text class="t" x="307.0" y="335" font-size="16" text-anchor="middle">0</text>
+  <text class="t" x="353.0" y="335" font-size="16" text-anchor="middle">−1</text>
+  <text class="t" x="307.0" y="361" font-size="16" text-anchor="middle">1</text>
+  <text class="t" x="353.0" y="361" font-size="16" text-anchor="middle">0</text>
+  <text class="t" x="335" y="405" font-size="14" text-anchor="middle" style="fill:#868e96">det = 1</text>
+  <text class="t" x="550" y="76" font-size="17" text-anchor="middle" style="fill:#f08c00">shear</text>
+  <text class="t" x="522.0" y="335" font-size="16" text-anchor="middle">1</text>
+  <text class="t" x="568.0" y="335" font-size="16" text-anchor="middle">0.5</text>
+  <text class="t" x="522.0" y="361" font-size="16" text-anchor="middle">0</text>
+  <text class="t" x="568.0" y="361" font-size="16" text-anchor="middle">1</text>
+  <text class="t" x="550" y="405" font-size="14" text-anchor="middle" style="fill:#868e96">det = 1</text>
+  <text class="t" x="765" y="76" font-size="17" text-anchor="middle" style="fill:#e03131">mirror</text>
+  <text class="t" x="737.0" y="335" font-size="16" text-anchor="middle">−1</text>
+  <text class="t" x="783.0" y="335" font-size="16" text-anchor="middle">0</text>
+  <text class="t" x="737.0" y="361" font-size="16" text-anchor="middle">0</text>
+  <text class="t" x="783.0" y="361" font-size="16" text-anchor="middle">1</text>
+  <text class="t" x="765" y="405" font-size="14" text-anchor="middle" style="fill:#e03131">det = −1 (flip!)</text>
+</svg>
