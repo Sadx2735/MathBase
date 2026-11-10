@@ -1,0 +1,119 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 450" width="900" height="450">
+  <defs>
+    <filter id="rough" x="-5%" y="-5%" width="110%" height="110%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.02" numOctaves="3" seed="151" result="noise"/>
+      <feDisplacementMap in="SourceGraphic" in2="noise" scale="4"/>
+    </filter>
+    <pattern id="hatch-red" width="9" height="9" patternUnits="userSpaceOnUse" patternTransform="rotate(-45)"><line x1="0" y1="0" x2="0" y2="9" stroke="#e03131" stroke-width="1.7"/></pattern>
+    <pattern id="hatch-blue" width="9" height="9" patternUnits="userSpaceOnUse" patternTransform="rotate(-45)"><line x1="0" y1="0" x2="0" y2="9" stroke="#1971c2" stroke-width="1.7"/></pattern>
+    <pattern id="hatch-green" width="9" height="9" patternUnits="userSpaceOnUse" patternTransform="rotate(-45)"><line x1="0" y1="0" x2="0" y2="9" stroke="#2f9e44" stroke-width="1.7"/></pattern>
+    <pattern id="hatch-orange" width="9" height="9" patternUnits="userSpaceOnUse" patternTransform="rotate(-45)"><line x1="0" y1="0" x2="0" y2="9" stroke="#f08c00" stroke-width="1.7"/></pattern>
+    <pattern id="hatch-purple" width="9" height="9" patternUnits="userSpaceOnUse" patternTransform="rotate(-45)"><line x1="0" y1="0" x2="0" y2="9" stroke="#9c36b5" stroke-width="1.7"/></pattern>
+    <pattern id="hatch-grey" width="9" height="9" patternUnits="userSpaceOnUse" patternTransform="rotate(-45)"><line x1="0" y1="0" x2="0" y2="9" stroke="#adb5bd" stroke-width="1.7"/></pattern>
+
+    <style>
+      .t { font-family: Virgil, "Segoe Print", "Comic Sans MS", "Chalkboard SE", "Comic Neue", cursive; fill: #1e1e1e; }
+    </style>
+  </defs>
+  <rect width="900" height="450" fill="#ffffff"/>
+
+  <g filter="url(#rough)" stroke="#1e1e1e" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <rect x="25" y="50" width="270" height="300" rx="14" fill="none" stroke="#ced4da" stroke-width="2"/>
+    <line x1="52" y1="323" x2="282.4" y2="92.60000000000001" stroke="#868e96" stroke-width="2" stroke-dasharray="6 5"/>
+    <line x1="45" y1="215" x2="280" y2="215" stroke="#adb5bd" stroke-width="1.5"/>
+    <line x1="160" y1="95" x2="160" y2="330" stroke="#adb5bd" stroke-width="1.5"/>
+    <circle cx="86.0650392172544" cy="288.832003801867" r="4" fill="#b2f2bb" stroke="#2f9e44" stroke-width="2"/>
+    <circle cx="104.02815059451329" cy="269.80038854673523" r="4" fill="#b2f2bb" stroke="#2f9e44" stroke-width="2"/>
+    <circle cx="113.86414364039437" cy="262.2973189054163" r="4" fill="#b2f2bb" stroke="#2f9e44" stroke-width="2"/>
+    <circle cx="121.10850373066158" cy="253.00287959862555" r="4" fill="#b2f2bb" stroke="#2f9e44" stroke-width="2"/>
+    <circle cx="127.0468568376587" cy="245.61919217471075" r="4" fill="#b2f2bb" stroke="#2f9e44" stroke-width="2"/>
+    <circle cx="132.20104428920735" cy="241.76247599753762" r="4" fill="#b2f2bb" stroke="#2f9e44" stroke-width="2"/>
+    <circle cx="136.83956540585498" cy="236.10881039261602" r="4" fill="#b2f2bb" stroke="#2f9e44" stroke-width="2"/>
+    <circle cx="141.12158154251054" cy="234.2240327449697" r="4" fill="#b2f2bb" stroke="#2f9e44" stroke-width="2"/>
+    <circle cx="145.15132734010945" cy="229.67885069478203" r="4" fill="#b2f2bb" stroke="#2f9e44" stroke-width="2"/>
+    <circle cx="149.0026916284217" cy="227.7744560964618" r="4" fill="#b2f2bb" stroke="#2f9e44" stroke-width="2"/>
+    <circle cx="152.73183475089337" cy="224.24280765546112" r="4" fill="#b2f2bb" stroke="#2f9e44" stroke-width="2"/>
+    <circle cx="156.3843860615871" cy="219.078936771804" r="4" fill="#b2f2bb" stroke="#2f9e44" stroke-width="2"/>
+    <circle cx="160.0" cy="214.4423660153105" r="4" fill="#b2f2bb" stroke="#2f9e44" stroke-width="2"/>
+    <circle cx="163.6156139384129" cy="210.32856082664168" r="4" fill="#b2f2bb" stroke="#2f9e44" stroke-width="2"/>
+    <circle cx="167.26816524910663" cy="206.45133149397827" r="4" fill="#b2f2bb" stroke="#2f9e44" stroke-width="2"/>
+    <circle cx="170.9973083715783" cy="200.13979136792554" r="4" fill="#b2f2bb" stroke="#2f9e44" stroke-width="2"/>
+    <circle cx="174.84867265989058" cy="198.3737409981298" r="4" fill="#b2f2bb" stroke="#2f9e44" stroke-width="2"/>
+    <circle cx="178.87841845748946" cy="197.97767259135864" r="4" fill="#b2f2bb" stroke="#2f9e44" stroke-width="2"/>
+    <circle cx="183.16043459414502" cy="191.32453655849488" r="4" fill="#b2f2bb" stroke="#2f9e44" stroke-width="2"/>
+    <circle cx="187.79895571079265" cy="188.7710939767926" r="4" fill="#b2f2bb" stroke="#2f9e44" stroke-width="2"/>
+    <circle cx="192.9531431623413" cy="183.3465409116345" r="4" fill="#b2f2bb" stroke="#2f9e44" stroke-width="2"/>
+    <circle cx="198.8914962693384" cy="172.81681333779935" r="4" fill="#b2f2bb" stroke="#2f9e44" stroke-width="2"/>
+    <circle cx="206.1358563596056" cy="169.42594762670203" r="4" fill="#b2f2bb" stroke="#2f9e44" stroke-width="2"/>
+    <circle cx="215.9718494054867" cy="163.9453785707591" r="4" fill="#b2f2bb" stroke="#2f9e44" stroke-width="2"/>
+    <circle cx="233.93496078274558" cy="140.28235963565498" r="4" fill="#b2f2bb" stroke="#2f9e44" stroke-width="2"/>
+    <rect x="315" y="50" width="270" height="300" rx="14" fill="none" stroke="#ced4da" stroke-width="2"/>
+    <line x1="342" y1="323" x2="572.4" y2="92.60000000000001" stroke="#868e96" stroke-width="2" stroke-dasharray="6 5"/>
+    <line x1="335" y1="215" x2="570" y2="215" stroke="#adb5bd" stroke-width="1.5"/>
+    <line x1="450" y1="95" x2="450" y2="330" stroke="#adb5bd" stroke-width="1.5"/>
+    <circle cx="376.06503921725437" cy="250.27270253656928" r="4" fill="#ffc9c9" stroke="#e03131" stroke-width="2"/>
+    <circle cx="394.0281505945133" cy="248.77248546614885" r="4" fill="#ffc9c9" stroke="#e03131" stroke-width="2"/>
+    <circle cx="403.8641436403944" cy="247.20702143631826" r="4" fill="#ffc9c9" stroke="#e03131" stroke-width="2"/>
+    <circle cx="411.1085037306616" cy="245.570375969555" r="4" fill="#ffc9c9" stroke="#e03131" stroke-width="2"/>
+    <circle cx="417.0468568376587" cy="243.85576620594182" r="4" fill="#ffc9c9" stroke="#e03131" stroke-width="2"/>
+    <circle cx="422.20104428920735" cy="242.055391065254" r="4" fill="#ffc9c9" stroke="#e03131" stroke-width="2"/>
+    <circle cx="426.839565405855" cy="240.16021665977883" r="4" fill="#ffc9c9" stroke="#e03131" stroke-width="2"/>
+    <circle cx="431.1215815425105" cy="238.15970201820562" r="4" fill="#ffc9c9" stroke="#e03131" stroke-width="2"/>
+    <circle cx="435.15132734010945" cy="236.04144401738003" r="4" fill="#ffc9c9" stroke="#e03131" stroke-width="2"/>
+    <circle cx="439.0026916284217" cy="233.790711166052" r="4" fill="#ffc9c9" stroke="#e03131" stroke-width="2"/>
+    <circle cx="442.73183475089337" cy="231.38982168409981" r="4" fill="#ffc9c9" stroke="#e03131" stroke-width="2"/>
+    <circle cx="446.38438606158707" cy="228.81729898074258" r="4" fill="#ffc9c9" stroke="#e03131" stroke-width="2"/>
+    <circle cx="450.0" cy="226.04670149984196" r="4" fill="#ffc9c9" stroke="#e03131" stroke-width="2"/>
+    <circle cx="453.61561393841293" cy="223.04496357803612" r="4" fill="#ffc9c9" stroke="#e03131" stroke-width="2"/>
+    <circle cx="457.26816524910663" cy="219.76997956262997" r="4" fill="#ffc9c9" stroke="#e03131" stroke-width="2"/>
+    <circle cx="460.9973083715783" cy="216.1669750545786" r="4" fill="#ffc9c9" stroke="#e03131" stroke-width="2"/>
+    <circle cx="464.84867265989055" cy="212.16285219061052" r="4" fill="#ffc9c9" stroke="#e03131" stroke-width="2"/>
+    <circle cx="468.8784184574895" cy="207.6569790442663" r="4" fill="#ffc9c9" stroke="#e03131" stroke-width="2"/>
+    <circle cx="473.160434594145" cy="202.50534867320206" r="4" fill="#ffc9c9" stroke="#e03131" stroke-width="2"/>
+    <circle cx="477.79895571079265" cy="196.49140162532808" r="4" fill="#ffc9c9" stroke="#e03131" stroke-width="2"/>
+    <circle cx="482.9531431623413" cy="189.26725658869066" r="4" fill="#ffc9c9" stroke="#e03131" stroke-width="2"/>
+    <circle cx="488.8914962693384" cy="180.21993717057802" r="4" fill="#ffc9c9" stroke="#e03131" stroke-width="2"/>
+    <circle cx="496.1358563596056" cy="168.10693665221436" r="4" fill="#ffc9c9" stroke="#e03131" stroke-width="2"/>
+    <circle cx="505.9718494054867" cy="149.71721419663874" r="4" fill="#ffc9c9" stroke="#e03131" stroke-width="2"/>
+    <circle cx="523.9349607827456" cy="110.16717180458677" r="4" fill="#ffc9c9" stroke="#e03131" stroke-width="2"/>
+    <rect x="605" y="50" width="270" height="300" rx="14" fill="none" stroke="#ced4da" stroke-width="2"/>
+    <line x1="632" y1="323" x2="862.4" y2="92.60000000000001" stroke="#868e96" stroke-width="2" stroke-dasharray="6 5"/>
+    <line x1="625" y1="215" x2="860" y2="215" stroke="#adb5bd" stroke-width="1.5"/>
+    <line x1="740" y1="95" x2="740" y2="330" stroke="#adb5bd" stroke-width="1.5"/>
+    <circle cx="666.0650392172544" cy="315.27897229725096" r="4" fill="#ffec99" stroke="#f08c00" stroke-width="2"/>
+    <circle cx="684.0281505945132" cy="277.09968862542746" r="4" fill="#ffec99" stroke="#f08c00" stroke-width="2"/>
+    <circle cx="693.8641436403943" cy="262.16703738645083" r="4" fill="#ffec99" stroke="#f08c00" stroke-width="2"/>
+    <circle cx="701.1085037306616" cy="252.87133654707483" r="4" fill="#ffec99" stroke="#f08c00" stroke-width="2"/>
+    <circle cx="707.0468568376587" cy="246.04565236062868" r="4" fill="#ffec99" stroke="#f08c00" stroke-width="2"/>
+    <circle cx="712.2010442892073" cy="240.57135545036132" r="4" fill="#ffec99" stroke="#f08c00" stroke-width="2"/>
+    <circle cx="716.839565405855" cy="235.92786523652802" r="4" fill="#ffec99" stroke="#f08c00" stroke-width="2"/>
+    <circle cx="721.1215815425105" cy="231.83042415026677" r="4" fill="#ffec99" stroke="#f08c00" stroke-width="2"/>
+    <circle cx="725.1513273401094" cy="228.1048024883367" r="4" fill="#ffec99" stroke="#f08c00" stroke-width="2"/>
+    <circle cx="729.0026916284216" cy="224.63457451230428" r="4" fill="#ffec99" stroke="#f08c00" stroke-width="2"/>
+    <circle cx="732.7318347508933" cy="221.3356523223486" r="4" fill="#ffec99" stroke="#f08c00" stroke-width="2"/>
+    <circle cx="736.3843860615871" cy="218.1425303064472" r="4" fill="#ffec99" stroke="#f08c00" stroke-width="2"/>
+    <circle cx="740.0" cy="215.0" r="4" fill="#ffec99" stroke="#f08c00" stroke-width="2"/>
+    <circle cx="743.6156139384129" cy="211.8574696935528" r="4" fill="#ffec99" stroke="#f08c00" stroke-width="2"/>
+    <circle cx="747.2681652491066" cy="208.6643476776514" r="4" fill="#ffec99" stroke="#f08c00" stroke-width="2"/>
+    <circle cx="750.9973083715784" cy="205.36542548769572" r="4" fill="#ffec99" stroke="#f08c00" stroke-width="2"/>
+    <circle cx="754.8486726598906" cy="201.8951975116633" r="4" fill="#ffec99" stroke="#f08c00" stroke-width="2"/>
+    <circle cx="758.8784184574895" cy="198.16957584973323" r="4" fill="#ffec99" stroke="#f08c00" stroke-width="2"/>
+    <circle cx="763.160434594145" cy="194.072134763472" r="4" fill="#ffec99" stroke="#f08c00" stroke-width="2"/>
+    <circle cx="767.7989557107927" cy="189.42864454963868" r="4" fill="#ffec99" stroke="#f08c00" stroke-width="2"/>
+    <circle cx="772.9531431623413" cy="183.95434763937135" r="4" fill="#ffec99" stroke="#f08c00" stroke-width="2"/>
+    <circle cx="778.8914962693384" cy="177.1286634529252" r="4" fill="#ffec99" stroke="#f08c00" stroke-width="2"/>
+    <circle cx="786.1358563596057" cy="167.83296261354917" r="4" fill="#ffec99" stroke="#f08c00" stroke-width="2"/>
+    <circle cx="795.9718494054868" cy="152.9003113745726" r="4" fill="#ffec99" stroke="#f08c00" stroke-width="2"/>
+    <circle cx="813.9349607827456" cy="114.72102770274932" r="4" fill="#ffec99" stroke="#f08c00" stroke-width="2"/>
+  </g>
+
+  <text class="t" x="20" y="30" font-size="20" >Q–Q plot: sorted data vs where a normal says they should be</text>
+  <text class="t" x="160" y="76" font-size="16" text-anchor="middle" style="fill:#2f9e44">normal data</text>
+  <text class="t" x="160" y="340" font-size="14" text-anchor="middle" style="fill:#2f9e44">on the line ✓</text>
+  <text class="t" x="450" y="76" font-size="16" text-anchor="middle" style="fill:#e03131">right-skewed data</text>
+  <text class="t" x="450" y="340" font-size="14" text-anchor="middle" style="fill:#e03131">bends up at the right</text>
+  <text class="t" x="740" y="76" font-size="16" text-anchor="middle" style="fill:#f08c00">fat-tailed data</text>
+  <text class="t" x="740" y="340" font-size="14" text-anchor="middle" style="fill:#f08c00">S-shape: both ends escape</text>
+  <text class="t" x="20" y="385" font-size="15" >x-axis: normal quantiles Φ⁻¹((i − 0.5)/n)  ·  y-axis: the i-th smallest STANDARDISED data value</text>
+  <text class="t" x="20" y="415" font-size="14" style="fill:#868e96">standardise first so a perfect normal sits on y = x (unstandardised: still a straight line, slope σ, intercept μ)</text>
+</svg>
