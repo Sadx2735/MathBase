@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 400" width="900" height="400">
+  <defs>
+    <filter id="rough" x="-5%" y="-5%" width="110%" height="110%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.02" numOctaves="3" seed="142" result="noise"/>
+      <feDisplacementMap in="SourceGraphic" in2="noise" scale="4"/>
+    </filter>
+    <pattern id="hatch-red" width="9" height="9" patternUnits="userSpaceOnUse" patternTransform="rotate(-45)"><line x1="0" y1="0" x2="0" y2="9" stroke="#e03131" stroke-width="1.7"/></pattern>
+    <pattern id="hatch-blue" width="9" height="9" patternUnits="userSpaceOnUse" patternTransform="rotate(-45)"><line x1="0" y1="0" x2="0" y2="9" stroke="#1971c2" stroke-width="1.7"/></pattern>
+    <pattern id="hatch-green" width="9" height="9" patternUnits="userSpaceOnUse" patternTransform="rotate(-45)"><line x1="0" y1="0" x2="0" y2="9" stroke="#2f9e44" stroke-width="1.7"/></pattern>
+    <pattern id="hatch-orange" width="9" height="9" patternUnits="userSpaceOnUse" patternTransform="rotate(-45)"><line x1="0" y1="0" x2="0" y2="9" stroke="#f08c00" stroke-width="1.7"/></pattern>
+    <pattern id="hatch-purple" width="9" height="9" patternUnits="userSpaceOnUse" patternTransform="rotate(-45)"><line x1="0" y1="0" x2="0" y2="9" stroke="#9c36b5" stroke-width="1.7"/></pattern>
+    <pattern id="hatch-grey" width="9" height="9" patternUnits="userSpaceOnUse" patternTransform="rotate(-45)"><line x1="0" y1="0" x2="0" y2="9" stroke="#adb5bd" stroke-width="1.7"/></pattern>
+
+    <style>
+      .t { font-family: Virgil, "Segoe Print", "Comic Sans MS", "Chalkboard SE", "Comic Neue", cursive; fill: #1e1e1e; }
+    </style>
+  </defs>
+  <rect width="900" height="400" fill="#ffffff"/>
+
+  <g filter="url(#rough)" stroke="#1e1e1e" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <rect x="20" y="50" width="205" height="280" rx="16" fill="none" stroke="#ced4da" stroke-width="2"/>
+    <rect x="82" y="120" width="62" height="62" rx="3" fill="#b2f2bb" stroke="#2f9e44" stroke-width="2"/>
+    <rect x="144" y="120" width="62" height="62" rx="3" fill="none" stroke="#adb5bd" stroke-width="2"/>
+    <rect x="82" y="182" width="62" height="62" rx="3" fill="none" stroke="#adb5bd" stroke-width="2"/>
+    <rect x="144" y="182" width="62" height="62" rx="3" fill="#b2f2bb" stroke="#2f9e44" stroke-width="2"/>
+    <rect x="238" y="50" width="205" height="280" rx="16" fill="none" stroke="#ced4da" stroke-width="2"/>
+    <rect x="300" y="120" width="62" height="62" rx="3" fill="none" stroke="#adb5bd" stroke-width="2"/>
+    <rect x="362" y="120" width="62" height="62" rx="3" fill="#ffc9c9" stroke="#e03131" stroke-width="2"/>
+    <rect x="300" y="182" width="62" height="62" rx="3" fill="#ffc9c9" stroke="#e03131" stroke-width="2"/>
+    <rect x="362" y="182" width="62" height="62" rx="3" fill="none" stroke="#adb5bd" stroke-width="2"/>
+    <rect x="456" y="50" width="205" height="280" rx="16" fill="none" stroke="#ced4da" stroke-width="2"/>
+    <rect x="518" y="120" width="62" height="62" rx="3" fill="#b2f2bb" stroke="#2f9e44" stroke-width="2"/>
+    <rect x="580" y="120" width="62" height="62" rx="3" fill="#ffc9c9" stroke="#e03131" stroke-width="2"/>
+    <rect x="518" y="182" width="62" height="62" rx="3" fill="#ffc9c9" stroke="#e03131" stroke-width="2"/>
+    <rect x="580" y="182" width="62" height="62" rx="3" fill="#b2f2bb" stroke="#2f9e44" stroke-width="2"/>
+    <rect x="674" y="50" width="205" height="280" rx="16" fill="none" stroke="#ced4da" stroke-width="2"/>
+    <rect x="736" y="120" width="62" height="62" rx="3" fill="#b2f2bb" stroke="#2f9e44" stroke-width="2"/>
+    <rect x="798" y="120" width="62" height="62" rx="3" fill="#ffc9c9" stroke="#e03131" stroke-width="2"/>
+    <rect x="736" y="182" width="62" height="62" rx="3" fill="#ffc9c9" stroke="#e03131" stroke-width="2"/>
+    <rect x="798" y="182" width="62" height="62" rx="3" fill="#b2f2bb" stroke="#2f9e44" stroke-width="2"/>
+  </g>
+
+  <text class="t" x="20" y="32" font-size="20" >Two players, ±$1 each: the joint probabilities decide the covariance</text>
+  <text class="t" x="122" y="78" font-size="16" text-anchor="middle">move together</text>
+  <text class="t" x="74" y="157" font-size="12" text-anchor="end" style="fill:#868e96">X +1</text>
+  <text class="t" x="113.0" y="112" font-size="12" text-anchor="middle" style="fill:#868e96">Y +1</text>
+  <text class="t" x="113.0" y="158" font-size="17" text-anchor="middle">0.5</text>
+  <text class="t" x="175.0" y="158" font-size="17" text-anchor="middle" style="fill:#adb5bd">0</text>
+  <text class="t" x="74" y="219" font-size="12" text-anchor="end" style="fill:#868e96">X −1</text>
+  <text class="t" x="175.0" y="112" font-size="12" text-anchor="middle" style="fill:#868e96">Y −1</text>
+  <text class="t" x="113.0" y="220" font-size="17" text-anchor="middle" style="fill:#adb5bd">0</text>
+  <text class="t" x="175.0" y="220" font-size="17" text-anchor="middle">0.5</text>
+  <text class="t" x="122" y="290" font-size="20" text-anchor="middle" style="fill:#2f9e44">Cov = +1</text>
+  <text class="t" x="340" y="78" font-size="16" text-anchor="middle">move opposite</text>
+  <text class="t" x="292" y="157" font-size="12" text-anchor="end" style="fill:#868e96">X +1</text>
+  <text class="t" x="331.0" y="112" font-size="12" text-anchor="middle" style="fill:#868e96">Y +1</text>
+  <text class="t" x="331.0" y="158" font-size="17" text-anchor="middle" style="fill:#adb5bd">0</text>
+  <text class="t" x="393.0" y="158" font-size="17" text-anchor="middle">0.5</text>
+  <text class="t" x="292" y="219" font-size="12" text-anchor="end" style="fill:#868e96">X −1</text>
+  <text class="t" x="393.0" y="112" font-size="12" text-anchor="middle" style="fill:#868e96">Y −1</text>
+  <text class="t" x="331.0" y="220" font-size="17" text-anchor="middle">0.5</text>
+  <text class="t" x="393.0" y="220" font-size="17" text-anchor="middle" style="fill:#adb5bd">0</text>
+  <text class="t" x="340" y="290" font-size="20" text-anchor="middle" style="fill:#e03131">Cov = −1</text>
+  <text class="t" x="558" y="78" font-size="16" text-anchor="middle">independent</text>
+  <text class="t" x="510" y="157" font-size="12" text-anchor="end" style="fill:#868e96">X +1</text>
+  <text class="t" x="549.0" y="112" font-size="12" text-anchor="middle" style="fill:#868e96">Y +1</text>
+  <text class="t" x="549.0" y="158" font-size="17" text-anchor="middle">0.25</text>
+  <text class="t" x="611.0" y="158" font-size="17" text-anchor="middle">0.25</text>
+  <text class="t" x="510" y="219" font-size="12" text-anchor="end" style="fill:#868e96">X −1</text>
+  <text class="t" x="611.0" y="112" font-size="12" text-anchor="middle" style="fill:#868e96">Y −1</text>
+  <text class="t" x="549.0" y="220" font-size="17" text-anchor="middle">0.25</text>
+  <text class="t" x="611.0" y="220" font-size="17" text-anchor="middle">0.25</text>
+  <text class="t" x="558" y="290" font-size="20" text-anchor="middle" style="fill:#868e96">Cov = 0</text>
+  <text class="t" x="776" y="78" font-size="16" text-anchor="middle">mostly together</text>
+  <text class="t" x="728" y="157" font-size="12" text-anchor="end" style="fill:#868e96">X +1</text>
+  <text class="t" x="767.0" y="112" font-size="12" text-anchor="middle" style="fill:#868e96">Y +1</text>
+  <text class="t" x="767.0" y="158" font-size="17" text-anchor="middle">0.4</text>
+  <text class="t" x="829.0" y="158" font-size="17" text-anchor="middle">0.1</text>
+  <text class="t" x="728" y="219" font-size="12" text-anchor="end" style="fill:#868e96">X −1</text>
+  <text class="t" x="829.0" y="112" font-size="12" text-anchor="middle" style="fill:#868e96">Y −1</text>
+  <text class="t" x="767.0" y="220" font-size="17" text-anchor="middle">0.1</text>
+  <text class="t" x="829.0" y="220" font-size="17" text-anchor="middle">0.4</text>
+  <text class="t" x="776" y="290" font-size="20" text-anchor="middle" style="fill:#2f9e44">Cov = +0.6</text>
+  <text class="t" x="20" y="360" font-size="15" style="fill:#868e96">green cells: x·y = +1 (same result)  ·  red cells: x·y = −1 (opposite result)</text>
+  <text class="t" x="20" y="388" font-size="16" >Cov = Σ P(x, y)·(x − μx)(y − μy) = P(green) − P(red), since μx = μy = 0 here</text>
+</svg>

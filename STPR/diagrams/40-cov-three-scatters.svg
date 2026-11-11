@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 430" width="900" height="430">
+  <defs>
+    <filter id="rough" x="-5%" y="-5%" width="110%" height="110%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.02" numOctaves="3" seed="140" result="noise"/>
+      <feDisplacementMap in="SourceGraphic" in2="noise" scale="4"/>
+    </filter>
+    <pattern id="hatch-red" width="9" height="9" patternUnits="userSpaceOnUse" patternTransform="rotate(-45)"><line x1="0" y1="0" x2="0" y2="9" stroke="#e03131" stroke-width="1.7"/></pattern>
+    <pattern id="hatch-blue" width="9" height="9" patternUnits="userSpaceOnUse" patternTransform="rotate(-45)"><line x1="0" y1="0" x2="0" y2="9" stroke="#1971c2" stroke-width="1.7"/></pattern>
+    <pattern id="hatch-green" width="9" height="9" patternUnits="userSpaceOnUse" patternTransform="rotate(-45)"><line x1="0" y1="0" x2="0" y2="9" stroke="#2f9e44" stroke-width="1.7"/></pattern>
+    <pattern id="hatch-orange" width="9" height="9" patternUnits="userSpaceOnUse" patternTransform="rotate(-45)"><line x1="0" y1="0" x2="0" y2="9" stroke="#f08c00" stroke-width="1.7"/></pattern>
+    <pattern id="hatch-purple" width="9" height="9" patternUnits="userSpaceOnUse" patternTransform="rotate(-45)"><line x1="0" y1="0" x2="0" y2="9" stroke="#9c36b5" stroke-width="1.7"/></pattern>
+    <pattern id="hatch-grey" width="9" height="9" patternUnits="userSpaceOnUse" patternTransform="rotate(-45)"><line x1="0" y1="0" x2="0" y2="9" stroke="#adb5bd" stroke-width="1.7"/></pattern>
+
+    <style>
+      .t { font-family: Virgil, "Segoe Print", "Comic Sans MS", "Chalkboard SE", "Comic Neue", cursive; fill: #1e1e1e; }
+    </style>
+  </defs>
+  <rect width="900" height="430" fill="#ffffff"/>
+
+  <g filter="url(#rough)" stroke="#1e1e1e" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <rect x="20" y="50" width="275" height="320" rx="16" fill="none" stroke="#ced4da" stroke-width="2"/>
+    <line x1="60" y1="300" x2="280" y2="300" stroke="#1e1e1e" stroke-width="2"/>
+    <path d="M270.1 304.8 L280 300 L270.1 295.2" stroke="#1e1e1e" stroke-width="2" fill="none"/>
+    <line x1="65" y1="305" x2="65" y2="80" stroke="#1e1e1e" stroke-width="2"/>
+    <path d="M69.8 89.9 L65 80 L60.2 89.9" stroke="#1e1e1e" stroke-width="2" fill="none"/>
+    <line x1="165.0" y1="300" x2="165.0" y2="100" stroke="#adb5bd" stroke-width="2" stroke-dasharray="5 5"/>
+    <line x1="65" y1="190.90909090909093" x2="265" y2="190.90909090909093" stroke="#adb5bd" stroke-width="2" stroke-dasharray="5 5"/>
+    <circle cx="85.0" cy="263.6363636363636" r="7" fill="#b2f2bb" stroke="#2f9e44" stroke-width="2"/>
+    <circle cx="125.0" cy="227.27272727272725" r="7" fill="#b2f2bb" stroke="#2f9e44" stroke-width="2"/>
+    <circle cx="165.0" cy="172.72727272727275" r="7" fill="#b2f2bb" stroke="#2f9e44" stroke-width="2"/>
+    <circle cx="205.0" cy="154.54545454545453" r="7" fill="#b2f2bb" stroke="#2f9e44" stroke-width="2"/>
+    <circle cx="245.0" cy="136.36363636363635" r="7" fill="#b2f2bb" stroke="#2f9e44" stroke-width="2"/>
+    <rect x="312" y="50" width="275" height="320" rx="16" fill="none" stroke="#ced4da" stroke-width="2"/>
+    <line x1="352" y1="300" x2="572" y2="300" stroke="#1e1e1e" stroke-width="2"/>
+    <path d="M562.1 304.8 L572 300 L562.1 295.2" stroke="#1e1e1e" stroke-width="2" fill="none"/>
+    <line x1="357" y1="305" x2="357" y2="80" stroke="#1e1e1e" stroke-width="2"/>
+    <path d="M361.8 89.9 L357 80 L352.2 89.9" stroke="#1e1e1e" stroke-width="2" fill="none"/>
+    <line x1="457.0" y1="300" x2="457.0" y2="100" stroke="#adb5bd" stroke-width="2" stroke-dasharray="5 5"/>
+    <line x1="357" y1="191.42857142857144" x2="557" y2="191.42857142857144" stroke="#adb5bd" stroke-width="2" stroke-dasharray="5 5"/>
+    <circle cx="377.0" cy="214.28571428571428" r="7" fill="#a5d8ff" stroke="#1971c2" stroke-width="2"/>
+    <circle cx="417.0" cy="128.57142857142858" r="7" fill="#a5d8ff" stroke="#1971c2" stroke-width="2"/>
+    <circle cx="457.0" cy="271.42857142857144" r="7" fill="#a5d8ff" stroke="#1971c2" stroke-width="2"/>
+    <circle cx="497.0" cy="128.57142857142858" r="7" fill="#a5d8ff" stroke="#1971c2" stroke-width="2"/>
+    <circle cx="537.0" cy="214.28571428571428" r="7" fill="#a5d8ff" stroke="#1971c2" stroke-width="2"/>
+    <rect x="604" y="50" width="275" height="320" rx="16" fill="none" stroke="#ced4da" stroke-width="2"/>
+    <line x1="644" y1="300" x2="864" y2="300" stroke="#1e1e1e" stroke-width="2"/>
+    <path d="M854.1 304.8 L864 300 L854.1 295.2" stroke="#1e1e1e" stroke-width="2" fill="none"/>
+    <line x1="649" y1="305" x2="649" y2="80" stroke="#1e1e1e" stroke-width="2"/>
+    <path d="M653.8 89.9 L649 80 L644.2 89.9" stroke="#1e1e1e" stroke-width="2" fill="none"/>
+    <line x1="749.0" y1="300" x2="749.0" y2="100" stroke="#adb5bd" stroke-width="2" stroke-dasharray="5 5"/>
+    <line x1="649" y1="200.0" x2="849" y2="200.0" stroke="#adb5bd" stroke-width="2" stroke-dasharray="5 5"/>
+    <circle cx="669.0" cy="150.0" r="7" fill="#ffc9c9" stroke="#e03131" stroke-width="2"/>
+    <circle cx="709.0" cy="150.0" r="7" fill="#ffc9c9" stroke="#e03131" stroke-width="2"/>
+    <circle cx="749.0" cy="200.0" r="7" fill="#ffc9c9" stroke="#e03131" stroke-width="2"/>
+    <circle cx="789.0" cy="250.0" r="7" fill="#ffc9c9" stroke="#e03131" stroke-width="2"/>
+    <circle cx="829.0" cy="250.0" r="7" fill="#ffc9c9" stroke="#e03131" stroke-width="2"/>
+  </g>
+
+  <text class="t" x="20" y="32" font-size="20" >Same x (age), three different partners: the sign of the covariance</text>
+  <text class="t" x="157" y="78" font-size="16" text-anchor="middle">age vs height (in)</text>
+  <text class="t" x="165.0" y="324" font-size="13" text-anchor="middle" style="fill:#868e96">age 6 → 10</text>
+  <text class="t" x="157" y="352" font-size="19" text-anchor="middle" style="fill:#2f9e44">cov = +3.6</text>
+  <text class="t" x="449" y="78" font-size="16" text-anchor="middle">age vs test grade</text>
+  <text class="t" x="457.0" y="324" font-size="13" text-anchor="middle" style="fill:#868e96">age 6 → 10</text>
+  <text class="t" x="449" y="352" font-size="19" text-anchor="middle" style="fill:#868e96">cov = 0</text>
+  <text class="t" x="741" y="78" font-size="16" text-anchor="middle">age vs naps per day</text>
+  <text class="t" x="749.0" y="324" font-size="13" text-anchor="middle" style="fill:#868e96">age 6 → 10</text>
+  <text class="t" x="741" y="352" font-size="19" text-anchor="middle" style="fill:#e03131">cov = −1.2</text>
+  <text class="t" x="20" y="405" font-size="15" style="fill:#868e96">dashed lines = the means; what matters is which side of BOTH means each point falls</text>
+</svg>

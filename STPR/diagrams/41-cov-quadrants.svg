@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 470" width="900" height="470">
+  <defs>
+    <filter id="rough" x="-5%" y="-5%" width="110%" height="110%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.02" numOctaves="3" seed="141" result="noise"/>
+      <feDisplacementMap in="SourceGraphic" in2="noise" scale="4"/>
+    </filter>
+    <pattern id="hatch-red" width="9" height="9" patternUnits="userSpaceOnUse" patternTransform="rotate(-45)"><line x1="0" y1="0" x2="0" y2="9" stroke="#e03131" stroke-width="1.7"/></pattern>
+    <pattern id="hatch-blue" width="9" height="9" patternUnits="userSpaceOnUse" patternTransform="rotate(-45)"><line x1="0" y1="0" x2="0" y2="9" stroke="#1971c2" stroke-width="1.7"/></pattern>
+    <pattern id="hatch-green" width="9" height="9" patternUnits="userSpaceOnUse" patternTransform="rotate(-45)"><line x1="0" y1="0" x2="0" y2="9" stroke="#2f9e44" stroke-width="1.7"/></pattern>
+    <pattern id="hatch-orange" width="9" height="9" patternUnits="userSpaceOnUse" patternTransform="rotate(-45)"><line x1="0" y1="0" x2="0" y2="9" stroke="#f08c00" stroke-width="1.7"/></pattern>
+    <pattern id="hatch-purple" width="9" height="9" patternUnits="userSpaceOnUse" patternTransform="rotate(-45)"><line x1="0" y1="0" x2="0" y2="9" stroke="#9c36b5" stroke-width="1.7"/></pattern>
+    <pattern id="hatch-grey" width="9" height="9" patternUnits="userSpaceOnUse" patternTransform="rotate(-45)"><line x1="0" y1="0" x2="0" y2="9" stroke="#adb5bd" stroke-width="1.7"/></pattern>
+
+    <style>
+      .t { font-family: Virgil, "Segoe Print", "Comic Sans MS", "Chalkboard SE", "Comic Neue", cursive; fill: #1e1e1e; }
+    </style>
+  </defs>
+  <rect width="900" height="470" fill="#ffffff"/>
+
+  <g filter="url(#rough)" stroke="#1e1e1e" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <rect x="20" y="50" width="420" height="345" rx="16" fill="none" stroke="#ced4da" stroke-width="2"/>
+    <rect x="235.0" y="90" width="165.0" height="113.63636363636365" rx="0" fill="#b2f2bb" stroke="none" stroke-width="2" fill-opacity="0.25"/>
+    <rect x="70" y="203.63636363636365" width="165.0" height="136.36363636363635" rx="0" fill="#b2f2bb" stroke="none" stroke-width="2" fill-opacity="0.25"/>
+    <rect x="70" y="90" width="165.0" height="113.63636363636365" rx="0" fill="#ffc9c9" stroke="none" stroke-width="2" fill-opacity="0.25"/>
+    <rect x="235.0" y="203.63636363636365" width="165.0" height="136.36363636363635" rx="0" fill="#ffc9c9" stroke="none" stroke-width="2" fill-opacity="0.25"/>
+    <rect x="103.0" y="203.63636363636365" width="132.0" height="90.9090909090909" rx="0" fill="url(#hatch-green)" stroke="#2f9e44" stroke-width="1.5"/>
+    <rect x="169.0" y="203.63636363636365" width="66.0" height="45.45454545454544" rx="0" fill="url(#hatch-green)" stroke="#2f9e44" stroke-width="1.5"/>
+    <rect x="235.0" y="158.1818181818182" width="66.0" height="45.45454545454547" rx="0" fill="url(#hatch-green)" stroke="#2f9e44" stroke-width="1.5"/>
+    <rect x="235.0" y="135.45454545454544" width="132.0" height="68.18181818181822" rx="0" fill="url(#hatch-green)" stroke="#2f9e44" stroke-width="1.5"/>
+    <line x1="65" y1="340" x2="415" y2="340" stroke="#1e1e1e" stroke-width="2"/>
+    <path d="M405.1 344.8 L415 340 L405.1 335.2" stroke="#1e1e1e" stroke-width="2" fill="none"/>
+    <line x1="70" y1="345" x2="70" y2="75" stroke="#1e1e1e" stroke-width="2"/>
+    <path d="M74.8 84.9 L70 75 L65.2 84.9" stroke="#1e1e1e" stroke-width="2" fill="none"/>
+    <line x1="235.0" y1="340" x2="235.0" y2="90" stroke="#868e96" stroke-width="2" stroke-dasharray="6 5"/>
+    <line x1="70" y1="203.63636363636365" x2="400" y2="203.63636363636365" stroke="#868e96" stroke-width="2" stroke-dasharray="6 5"/>
+    <circle cx="103.0" cy="294.54545454545456" r="6" fill="#b2f2bb" stroke="#2f9e44" stroke-width="2"/>
+    <circle cx="169.0" cy="249.0909090909091" r="6" fill="#b2f2bb" stroke="#2f9e44" stroke-width="2"/>
+    <circle cx="235.0" cy="180.9090909090909" r="6" fill="#b2f2bb" stroke="#2f9e44" stroke-width="2"/>
+    <circle cx="301.0" cy="158.1818181818182" r="6" fill="#b2f2bb" stroke="#2f9e44" stroke-width="2"/>
+    <circle cx="367.0" cy="135.45454545454544" r="6" fill="#b2f2bb" stroke="#2f9e44" stroke-width="2"/>
+    <circle cx="235.0" cy="203.63636363636365" r="6" fill="#eebefa" stroke="#9c36b5" stroke-width="2"/>
+    <rect x="460" y="50" width="420" height="345" rx="16" fill="none" stroke="#ced4da" stroke-width="2"/>
+    <rect x="675.0" y="90" width="165.0" height="125.0" rx="0" fill="#b2f2bb" stroke="none" stroke-width="2" fill-opacity="0.25"/>
+    <rect x="510" y="215.0" width="165.0" height="125.0" rx="0" fill="#b2f2bb" stroke="none" stroke-width="2" fill-opacity="0.25"/>
+    <rect x="510" y="90" width="165.0" height="125.0" rx="0" fill="#ffc9c9" stroke="none" stroke-width="2" fill-opacity="0.25"/>
+    <rect x="675.0" y="215.0" width="165.0" height="125.0" rx="0" fill="#ffc9c9" stroke="none" stroke-width="2" fill-opacity="0.25"/>
+    <rect x="543.0" y="152.5" width="132.0" height="62.5" rx="0" fill="url(#hatch-red)" stroke="#e03131" stroke-width="1.5"/>
+    <rect x="609.0" y="152.5" width="66.0" height="62.5" rx="0" fill="url(#hatch-red)" stroke="#e03131" stroke-width="1.5"/>
+    <rect x="675.0" y="215.0" width="66.0" height="62.5" rx="0" fill="url(#hatch-red)" stroke="#e03131" stroke-width="1.5"/>
+    <rect x="675.0" y="215.0" width="132.0" height="62.5" rx="0" fill="url(#hatch-red)" stroke="#e03131" stroke-width="1.5"/>
+    <line x1="505" y1="340" x2="855" y2="340" stroke="#1e1e1e" stroke-width="2"/>
+    <path d="M845.1 344.8 L855 340 L845.1 335.2" stroke="#1e1e1e" stroke-width="2" fill="none"/>
+    <line x1="510" y1="345" x2="510" y2="75" stroke="#1e1e1e" stroke-width="2"/>
+    <path d="M514.8 84.9 L510 75 L505.2 84.9" stroke="#1e1e1e" stroke-width="2" fill="none"/>
+    <line x1="675.0" y1="340" x2="675.0" y2="90" stroke="#868e96" stroke-width="2" stroke-dasharray="6 5"/>
+    <line x1="510" y1="215.0" x2="840" y2="215.0" stroke="#868e96" stroke-width="2" stroke-dasharray="6 5"/>
+    <circle cx="543.0" cy="152.5" r="6" fill="#ffc9c9" stroke="#e03131" stroke-width="2"/>
+    <circle cx="609.0" cy="152.5" r="6" fill="#ffc9c9" stroke="#e03131" stroke-width="2"/>
+    <circle cx="675.0" cy="215.0" r="6" fill="#ffc9c9" stroke="#e03131" stroke-width="2"/>
+    <circle cx="741.0" cy="277.5" r="6" fill="#ffc9c9" stroke="#e03131" stroke-width="2"/>
+    <circle cx="807.0" cy="277.5" r="6" fill="#ffc9c9" stroke="#e03131" stroke-width="2"/>
+    <circle cx="675.0" cy="215.0" r="6" fill="#eebefa" stroke="#9c36b5" stroke-width="2"/>
+  </g>
+
+  <text class="t" x="20" y="32" font-size="20" >Covariance = average signed area of the rectangles from the mean point</text>
+  <text class="t" x="230" y="75" font-size="16" text-anchor="middle">age vs height</text>
+  <text class="t" x="392" y="108" font-size="14" text-anchor="end" style="fill:#2f9e44">+ × + = +</text>
+  <text class="t" x="78" y="330" font-size="14" style="fill:#2f9e44">− × − = +</text>
+  <text class="t" x="78" y="108" font-size="14" style="fill:#e03131">− × + = −</text>
+  <text class="t" x="392" y="330" font-size="14" text-anchor="end" style="fill:#e03131">+ × − = −</text>
+  <text class="t" x="247.0" y="225.63636363636365" font-size="13" style="fill:#9c36b5">(x̄, ȳ)</text>
+  <text class="t" x="230" y="382" font-size="13" text-anchor="middle" style="fill:#2f9e44">products: 8 + 2 + 0 + 2 + 6 = 18 → ÷5 = +3.6</text>
+  <text class="t" x="670" y="75" font-size="16" text-anchor="middle">age vs naps</text>
+  <text class="t" x="832" y="108" font-size="14" text-anchor="end" style="fill:#2f9e44">+ × + = +</text>
+  <text class="t" x="518" y="330" font-size="14" style="fill:#2f9e44">− × − = +</text>
+  <text class="t" x="518" y="108" font-size="14" style="fill:#e03131">− × + = −</text>
+  <text class="t" x="832" y="330" font-size="14" text-anchor="end" style="fill:#e03131">+ × − = −</text>
+  <text class="t" x="687.0" y="203.0" font-size="13" style="fill:#9c36b5">(x̄, ȳ)</text>
+  <text class="t" x="670" y="382" font-size="13" text-anchor="middle" style="fill:#e03131">products: −2 − 1 + 0 − 1 − 2 = −6 → ÷5 = −1.2</text>
+  <text class="t" x="20" y="425" font-size="20" >Cov(X, Y) = (1/N) Σ (xᵢ − x̄)(yᵢ − ȳ)</text>
+  <text class="t" x="20" y="455" font-size="15" style="fill:#868e96">green rectangles add, red ones subtract: the bigger total wins the sign</text>
+</svg>

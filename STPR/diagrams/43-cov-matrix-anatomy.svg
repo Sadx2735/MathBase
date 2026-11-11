@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 450" width="900" height="450">
+  <defs>
+    <filter id="rough" x="-5%" y="-5%" width="110%" height="110%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.02" numOctaves="3" seed="143" result="noise"/>
+      <feDisplacementMap in="SourceGraphic" in2="noise" scale="4"/>
+    </filter>
+    <pattern id="hatch-red" width="9" height="9" patternUnits="userSpaceOnUse" patternTransform="rotate(-45)"><line x1="0" y1="0" x2="0" y2="9" stroke="#e03131" stroke-width="1.7"/></pattern>
+    <pattern id="hatch-blue" width="9" height="9" patternUnits="userSpaceOnUse" patternTransform="rotate(-45)"><line x1="0" y1="0" x2="0" y2="9" stroke="#1971c2" stroke-width="1.7"/></pattern>
+    <pattern id="hatch-green" width="9" height="9" patternUnits="userSpaceOnUse" patternTransform="rotate(-45)"><line x1="0" y1="0" x2="0" y2="9" stroke="#2f9e44" stroke-width="1.7"/></pattern>
+    <pattern id="hatch-orange" width="9" height="9" patternUnits="userSpaceOnUse" patternTransform="rotate(-45)"><line x1="0" y1="0" x2="0" y2="9" stroke="#f08c00" stroke-width="1.7"/></pattern>
+    <pattern id="hatch-purple" width="9" height="9" patternUnits="userSpaceOnUse" patternTransform="rotate(-45)"><line x1="0" y1="0" x2="0" y2="9" stroke="#9c36b5" stroke-width="1.7"/></pattern>
+    <pattern id="hatch-grey" width="9" height="9" patternUnits="userSpaceOnUse" patternTransform="rotate(-45)"><line x1="0" y1="0" x2="0" y2="9" stroke="#adb5bd" stroke-width="1.7"/></pattern>
+
+    <style>
+      .t { font-family: Virgil, "Segoe Print", "Comic Sans MS", "Chalkboard SE", "Comic Neue", cursive; fill: #1e1e1e; }
+    </style>
+  </defs>
+  <rect width="900" height="450" fill="#ffffff"/>
+
+  <g filter="url(#rough)" stroke="#1e1e1e" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M102 120 L90 120 L90 248 L102 248" stroke="#1e1e1e" stroke-width="2.5" fill="none"/>
+    <path d="M338 120 L350 120 L350 248 L338 248" stroke="#1e1e1e" stroke-width="2.5" fill="none"/>
+    <rect x="100" y="126" width="110" height="52" rx="8" fill="#a5d8ff" stroke="#1971c2" stroke-width="2"/>
+    <rect x="230" y="126" width="110" height="52" rx="8" fill="#eebefa" stroke="#9c36b5" stroke-width="2"/>
+    <rect x="100" y="190" width="110" height="52" rx="8" fill="#eebefa" stroke="#9c36b5" stroke-width="2"/>
+    <rect x="230" y="190" width="110" height="52" rx="8" fill="#a5d8ff" stroke="#1971c2" stroke-width="2"/>
+    <path d="M102 280 L90 280 L90 408 L102 408" stroke="#1e1e1e" stroke-width="2.5" fill="none"/>
+    <path d="M338 280 L350 280 L350 408 L338 408" stroke="#1e1e1e" stroke-width="2.5" fill="none"/>
+    <rect x="100" y="286" width="110" height="52" rx="8" fill="#a5d8ff" stroke="#1971c2" stroke-width="2"/>
+    <rect x="230" y="286" width="110" height="52" rx="8" fill="#eebefa" stroke="#9c36b5" stroke-width="2"/>
+    <rect x="100" y="350" width="110" height="52" rx="8" fill="#eebefa" stroke="#9c36b5" stroke-width="2"/>
+    <rect x="230" y="350" width="110" height="52" rx="8" fill="#a5d8ff" stroke="#1971c2" stroke-width="2"/>
+    <path d="M414 135 Q 385.1 155.1 350 152" stroke="#1971c2" stroke-width="2" fill="none"/>
+    <path d="M360.3 148.1 L350 152 L359.4 157.6" stroke="#1971c2" stroke-width="2" fill="none"/>
+    <path d="M414 200 Q 375.4 193.1 340 210" stroke="#9c36b5" stroke-width="2" fill="none"/>
+    <path d="M346.9 201.4 L340 210 L351.0 210.1" stroke="#9c36b5" stroke-width="2" fill="none"/>
+    <line x1="470" y1="312" x2="560" y2="312" stroke="#f08c00" stroke-width="2"/>
+    <path d="M550.1 316.8 L560 312 L550.1 307.2" stroke="#f08c00" stroke-width="2" fill="none"/>
+    <path d="M597 280 L585 280 L585 408 L597 408" stroke="#1e1e1e" stroke-width="2.5" fill="none"/>
+    <path d="M793 280 L805 280 L805 408 L793 408" stroke="#1e1e1e" stroke-width="2.5" fill="none"/>
+    <rect x="595" y="286" width="90" height="52" rx="8" fill="#ffec99" stroke="#f08c00" stroke-width="2"/>
+    <rect x="705" y="286" width="90" height="52" rx="8" fill="#ffec99" stroke="#f08c00" stroke-width="2"/>
+    <rect x="595" y="350" width="90" height="52" rx="8" fill="#ffec99" stroke="#f08c00" stroke-width="2"/>
+    <rect x="705" y="350" width="90" height="52" rx="8" fill="#ffec99" stroke="#f08c00" stroke-width="2"/>
+  </g>
+
+  <text class="t" x="20" y="32" font-size="20" >Covariance matrix: every pair in one table</text>
+  <text class="t" x="155.0" y="160" font-size="18" text-anchor="middle">Var(X)</text>
+  <text class="t" x="285.0" y="160" font-size="18" text-anchor="middle">Cov(X,Y)</text>
+  <text class="t" x="155.0" y="224" font-size="18" text-anchor="middle">Cov(Y,X)</text>
+  <text class="t" x="285.0" y="224" font-size="18" text-anchor="middle">Var(Y)</text>
+  <text class="t" x="155.0" y="320" font-size="18" text-anchor="middle">2</text>
+  <text class="t" x="285.0" y="320" font-size="18" text-anchor="middle">3.6</text>
+  <text class="t" x="155.0" y="384" font-size="18" text-anchor="middle">3.6</text>
+  <text class="t" x="285.0" y="384" font-size="18" text-anchor="middle">6.8</text>
+  <text class="t" x="60" y="157" font-size="15" style="fill:#868e96">X</text>
+  <text class="t" x="60" y="221" font-size="15" style="fill:#868e96">Y</text>
+  <text class="t" x="155" y="108" font-size="15" text-anchor="middle" style="fill:#868e96">X</text>
+  <text class="t" x="285" y="108" font-size="15" text-anchor="middle" style="fill:#868e96">Y</text>
+  <text class="t" x="30" y="330" font-size="14" style="fill:#868e96">age /</text>
+  <text class="t" x="30" y="350" font-size="14" style="fill:#868e96">height</text>
+  <text class="t" x="420" y="140" font-size="15" style="fill:#1971c2">diagonal: a variable with itself = its variance</text>
+  <text class="t" x="420" y="205" font-size="15" style="fill:#9c36b5">off-diagonal: the pair; mirror images (symmetric)</text>
+  <text class="t" x="515" y="300" font-size="15" text-anchor="middle" style="fill:#f08c00">÷ σᵢ σⱼ</text>
+  <text class="t" x="640.0" y="320" font-size="18" text-anchor="middle">1</text>
+  <text class="t" x="750.0" y="320" font-size="18" text-anchor="middle">0.98</text>
+  <text class="t" x="640.0" y="384" font-size="18" text-anchor="middle">0.98</text>
+  <text class="t" x="750.0" y="384" font-size="18" text-anchor="middle">1</text>
+  <text class="t" x="695" y="270" font-size="15" text-anchor="middle" style="fill:#f08c00">correlation matrix</text>
+  <text class="t" x="20" y="435" font-size="15" style="fill:#868e96">Cov(X, X) = E[(X − μ)(X − μ)] = Var(X) → the variance is just a covariance with yourself</text>
+</svg>
