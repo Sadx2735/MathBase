@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 450" width="900" height="450">
+  <defs>
+    <filter id="rough" x="-5%" y="-5%" width="110%" height="110%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.02" numOctaves="3" seed="152" result="noise"/>
+      <feDisplacementMap in="SourceGraphic" in2="noise" scale="4"/>
+    </filter>
+    <pattern id="hatch-red" width="9" height="9" patternUnits="userSpaceOnUse" patternTransform="rotate(-45)"><line x1="0" y1="0" x2="0" y2="9" stroke="#e03131" stroke-width="1.7"/></pattern>
+    <pattern id="hatch-blue" width="9" height="9" patternUnits="userSpaceOnUse" patternTransform="rotate(-45)"><line x1="0" y1="0" x2="0" y2="9" stroke="#1971c2" stroke-width="1.7"/></pattern>
+    <pattern id="hatch-green" width="9" height="9" patternUnits="userSpaceOnUse" patternTransform="rotate(-45)"><line x1="0" y1="0" x2="0" y2="9" stroke="#2f9e44" stroke-width="1.7"/></pattern>
+    <pattern id="hatch-orange" width="9" height="9" patternUnits="userSpaceOnUse" patternTransform="rotate(-45)"><line x1="0" y1="0" x2="0" y2="9" stroke="#f08c00" stroke-width="1.7"/></pattern>
+    <pattern id="hatch-purple" width="9" height="9" patternUnits="userSpaceOnUse" patternTransform="rotate(-45)"><line x1="0" y1="0" x2="0" y2="9" stroke="#9c36b5" stroke-width="1.7"/></pattern>
+    <pattern id="hatch-grey" width="9" height="9" patternUnits="userSpaceOnUse" patternTransform="rotate(-45)"><line x1="0" y1="0" x2="0" y2="9" stroke="#adb5bd" stroke-width="1.7"/></pattern>
+
+    <style>
+      .t { font-family: Virgil, "Segoe Print", "Comic Sans MS", "Chalkboard SE", "Comic Neue", cursive; fill: #1e1e1e; }
+    </style>
+  </defs>
+  <rect width="900" height="450" fill="#ffffff"/>
+
+  <g filter="url(#rough)" stroke="#1e1e1e" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M90.0 370.0 L92.8 370.0 L95.6 370.0 L98.4 370.0 L101.2 370.0 L104.0 370.0 L106.8 370.0 L109.6 370.0 L112.4 370.0 L115.2 370.0 L118.0 370.0 L120.8 370.0 L123.6 370.0 L126.4 370.0 L129.2 370.0 L132.0 370.0 L134.8 370.0 L137.6 370.0 L140.4 370.0 L143.2 370.0 L146.0 370.0 L148.8 370.0 L151.6 370.0 L154.4 370.0 L157.2 370.0 L160.0 370.0 L162.8 370.0 L165.6 370.0 L168.4 370.0 L171.2 370.0 L174.0 370.0 L176.8 370.0 L179.6 370.0 L182.4 370.0 L185.2 370.0 L188.0 370.0 L190.8 370.0 L193.6 370.0 L196.4 370.0 L199.2 369.9 L202.0 369.9 L204.8 369.9 L207.6 369.9 L210.4 369.9 L213.2 369.9 L216.0 369.8 L218.8 369.8 L221.6 369.8 L224.4 369.7 L227.2 369.7 L230.0 369.7 L232.8 369.6 L235.6 369.5 L238.4 369.5 L241.2 369.4 L244.0 369.3 L246.8 369.2 L249.6 369.1 L252.4 369.0 L255.2 368.9 L258.0 368.7 L260.8 368.5 L263.6 368.4 L266.4 368.2 L269.2 368.0 L272.0 367.7 L274.8 367.5 L277.6 367.2 L280.4 366.9 L283.2 366.5 L286.0 366.2 L288.8 365.8 L291.6 365.4 L294.4 364.9 L297.2 364.4 L300.0 363.9 L302.8 363.3 L305.6 362.7 L308.4 362.0 L311.2 361.3 L314.0 360.5 L316.8 359.7 L319.6 358.8 L322.4 357.9 L325.2 356.9 L328.0 355.8 L330.8 354.7 L333.6 353.5 L336.4 352.3 L339.2 350.9 L342.0 349.5 L344.8 348.0 L347.6 346.5 L350.4 344.8 L353.2 343.1 L356.0 341.3 L358.8 339.3 L361.6 337.3 L364.4 335.2 L367.2 333.0 L370.0 330.7 L372.8 328.3 L375.6 325.8 L378.4 323.2 L381.2 320.4 L384.0 317.6 L386.8 314.7 L389.6 311.6 L392.4 308.4 L395.2 305.2 L398.0 301.8 L400.8 298.3 L403.6 294.7 L406.4 290.9 L409.2 287.1 L412.0 283.2 L414.8 279.1 L417.6 275.0 L420.4 270.7 L423.2 266.3 L426.0 261.9 L428.8 257.3 L431.6 252.7 L434.4 248.0 L437.2 243.2 L440.0 238.3 L442.8 233.3 L445.6 228.3 L448.4 223.2 L451.2 218.1 L454.0 213.0 L456.8 207.8 L459.6 202.5 L462.4 197.3 L465.2 192.1 L468.0 186.9 L470.8 181.7 L473.6 176.5 L476.4 171.3 L479.2 166.3 L482.0 161.3 L484.8 156.3 L487.6 151.5 L490.4 146.8 L493.2 142.2 L496.0 137.8 L498.8 133.5 L501.6 129.4 L504.4 125.4 L507.2 121.7 L510.0 118.3 L512.8 115.0 L515.6 112.1 L518.4 109.4 L521.2 107.0 L524.0 104.9 L526.8 103.2 L529.6 101.8 L532.4 100.8 L535.2 100.2 L538.0 100.0 L540.8 100.2 L543.6 100.9 L546.4 102.0 L549.2 103.5 L552.0 105.6 L554.8 108.1 L557.6 111.2 L560.4 114.7 L563.2 118.8 L566.0 123.3 L568.8 128.4 L571.6 134.0 L574.4 140.2 L577.2 146.8 L580.0 154.0 L582.8 161.6 L585.6 169.8 L588.4 178.4 L591.2 187.4 L594.0 196.8 L596.8 206.6 L599.6 216.8 L602.4 227.2 L605.2 237.9 L608.0 248.7 L610.8 259.7 L613.6 270.7 L616.4 281.7 L619.2 292.6 L622.0 303.3 L624.8 313.6 L627.6 323.6 L630.4 332.9 L633.2 341.6 L636.0 349.5 L638.8 356.3 L641.6 362.0 L644.4 366.3 L647.2 369.0 L650.0 370.0 L650.0 370 L90.0 370 Z" stroke="#9c36b5" stroke-width="1.5" fill="#eebefa"/>
+    <path d="M90.0 370.0 L92.8 370.0 L95.6 370.0 L98.4 370.0 L101.2 370.0 L104.0 370.0 L106.8 370.0 L109.6 370.0 L112.4 370.0 L115.2 370.0 L118.0 370.0 L120.8 370.0 L123.6 370.0 L126.4 370.0 L129.2 370.0 L132.0 370.0 L134.8 370.0 L137.6 370.0 L140.4 370.0 L143.2 370.0 L146.0 370.0 L148.8 370.0 L151.6 370.0 L154.4 370.0 L157.2 370.0 L160.0 370.0 L162.8 370.0 L165.6 370.0 L168.4 370.0 L171.2 370.0 L174.0 370.0 L176.8 370.0 L179.6 370.0 L182.4 370.0 L185.2 370.0 L188.0 370.0 L190.8 370.0 L193.6 370.0 L196.4 370.0 L199.2 369.9 L202.0 369.9 L204.8 369.9 L207.6 369.9 L210.4 369.9 L213.2 369.9 L216.0 369.8 L218.8 369.8 L221.6 369.8 L224.4 369.7 L227.2 369.7 L230.0 369.7 L232.8 369.6 L235.6 369.5 L238.4 369.5 L241.2 369.4 L244.0 369.3 L246.8 369.2 L249.6 369.1 L252.4 369.0 L255.2 368.9 L258.0 368.7 L260.8 368.5 L263.6 368.4 L266.4 368.2 L269.2 368.0 L272.0 367.7 L274.8 367.5 L277.6 367.2 L280.4 366.9 L283.2 366.5 L286.0 366.2 L288.8 365.8 L291.6 365.4 L294.4 364.9 L297.2 364.4 L300.0 363.9 L302.8 363.3 L305.6 362.7 L308.4 362.0 L311.2 361.3 L314.0 360.5 L316.8 359.7 L319.6 358.8 L322.4 357.9 L325.2 356.9 L328.0 355.8 L330.8 354.7 L333.6 353.5 L336.4 352.3 L339.2 350.9 L342.0 349.5 L344.8 348.0 L347.6 346.5 L350.4 344.8 L353.2 343.1 L356.0 341.3 L358.8 339.3 L361.6 337.3 L364.4 335.2 L367.2 333.0 L370.0 330.7 L372.8 328.3 L375.6 325.8 L378.4 323.2 L381.2 320.4 L384.0 317.6 L386.8 314.7 L389.6 311.6 L392.4 308.4 L395.2 305.2 L398.0 301.8 L400.8 298.3 L403.6 294.7 L406.4 290.9 L409.2 287.1 L412.0 283.2 L414.8 279.1 L417.6 275.0 L420.4 270.7 L423.2 266.3 L426.0 261.9 L428.8 257.3 L431.6 252.7 L434.4 248.0 L437.2 243.2 L440.0 238.3 L442.8 233.3 L445.6 228.3 L448.4 223.2 L451.2 218.1 L454.0 213.0 L456.8 207.8 L459.6 202.5 L462.4 197.3 L465.2 192.1 L468.0 186.9 L470.8 181.7 L473.6 176.5 L476.4 171.3 L479.2 166.3 L482.0 161.3 L484.8 156.3 L487.6 151.5 L490.4 146.8 L493.2 142.2 L496.0 137.8 L498.8 133.5 L501.6 129.4 L504.4 125.4 L507.2 121.7 L510.0 118.3 L512.8 115.0 L515.6 112.1 L518.4 109.4 L521.2 107.0 L524.0 104.9 L526.8 103.2 L529.6 101.8 L532.4 100.8 L535.2 100.2 L538.0 100.0 L540.8 100.2 L543.6 100.9 L546.4 102.0 L549.2 103.5 L552.0 105.6 L554.8 108.1 L557.6 111.2 L560.4 114.7 L563.2 118.8 L566.0 123.3 L568.8 128.4 L571.6 134.0 L574.4 140.2 L577.2 146.8 L580.0 154.0 L582.8 161.6 L585.6 169.8 L588.4 178.4 L591.2 187.4 L594.0 196.8 L596.8 206.6 L599.6 216.8 L602.4 227.2 L605.2 237.9 L608.0 248.7 L610.8 259.7 L613.6 270.7 L616.4 281.7 L619.2 292.6 L622.0 303.3 L624.8 313.6 L627.6 323.6 L630.4 332.9 L633.2 341.6 L636.0 349.5 L638.8 356.3 L641.6 362.0 L644.4 366.3 L647.2 369.0 L650.0 370.0" stroke="#9c36b5" stroke-width="3" fill="none"/>
+    <line x1="80" y1="370" x2="675" y2="370" stroke="#1e1e1e" stroke-width="2"/>
+    <path d="M665.1 374.8 L675 370 L665.1 365.2" stroke="#1e1e1e" stroke-width="2" fill="none"/>
+    <line x1="90" y1="380" x2="90" y2="70" stroke="#1e1e1e" stroke-width="2"/>
+    <path d="M94.8 79.9 L90 70 L85.2 79.9" stroke="#1e1e1e" stroke-width="2" fill="none"/>
+    <line x1="90" y1="365" x2="90" y2="375" stroke="#1e1e1e" stroke-width="2"/>
+    <line x1="202.0" y1="365" x2="202.0" y2="375" stroke="#1e1e1e" stroke-width="2"/>
+    <line x1="314.0" y1="365" x2="314.0" y2="375" stroke="#1e1e1e" stroke-width="2"/>
+    <line x1="426.0" y1="365" x2="426.0" y2="375" stroke="#1e1e1e" stroke-width="2"/>
+    <line x1="538.0" y1="365" x2="538.0" y2="375" stroke="#1e1e1e" stroke-width="2"/>
+    <line x1="650" y1="365" x2="650" y2="375" stroke="#1e1e1e" stroke-width="2"/>
+    <line x1="538.0" y1="100.0" x2="538.0" y2="370" stroke="#e03131" stroke-width="2" stroke-dasharray="6 5"/>
+    <circle cx="538.0" cy="100.0" r="6" fill="#ffc9c9" stroke="#e03131" stroke-width="2"/>
+    <path d="M542 89 Q 545.0 105.5 530.0 98.0" stroke="#e03131" stroke-width="2" fill="none"/>
+    <path d="M541.0 98.2 L530.0 98.0 L536.7 106.7" stroke="#e03131" stroke-width="2" fill="none"/>
+    <circle cx="370.0" cy="330.7098288834095" r="6" fill="#a5d8ff" stroke="#1971c2" stroke-width="2"/>
+    <path d="M375 230 Q 354.6 278.7 364.0 330.7098288834095" stroke="#1971c2" stroke-width="2" fill="none"/>
+    <path d="M357.5 321.8 L364.0 330.7098288834095 L366.9 320.1" stroke="#1971c2" stroke-width="2" fill="none"/>
+  </g>
+
+  <text class="t" x="20" y="32" font-size="20" >MLE for a coin: 8 heads, 2 tails → try every p, keep the best</text>
+  <text class="t" x="90" y="392" font-size="14" text-anchor="middle">0</text>
+  <text class="t" x="202.0" y="392" font-size="14" text-anchor="middle">0.2</text>
+  <text class="t" x="314.0" y="392" font-size="14" text-anchor="middle">0.4</text>
+  <text class="t" x="426.0" y="392" font-size="14" text-anchor="middle">0.6</text>
+  <text class="t" x="538.0" y="392" font-size="14" text-anchor="middle">0.8</text>
+  <text class="t" x="650" y="392" font-size="14" text-anchor="middle">1</text>
+  <text class="t" x="325.2" y="95" font-size="16" style="fill:#e03131">peak at p = 0.8 = 8/10</text>
+  <text class="t" x="134.8" y="235.0" font-size="15" style="fill:#1971c2">fair coin p = 0.5: 0.00098</text>
+  <text class="t" x="370.0" y="418" font-size="15" text-anchor="middle">p = chance of heads (the model we are choosing)</text>
+  <text class="t" x="680" y="120.0" font-size="16" >L(p) = p⁸ (1 − p)²</text>
+  <text class="t" x="680" y="142.4" font-size="16" ></text>
+  <text class="t" x="680" y="164.8" font-size="16" >L(0.8) ≈ 0.0067</text>
+  <text class="t" x="680" y="187.2" font-size="16" >L(0.5) ≈ 0.0010</text>
+  <text class="t" x="680" y="209.6" font-size="16" ></text>
+  <text class="t" x="680" y="232.0" font-size="16" >0.8 makes the data</text>
+  <text class="t" x="680" y="254.39999999999998" font-size="16" >about 7× more likely</text>
+  <text class="t" x="20" y="437" font-size="15" style="fill:#868e96">height of the curve = how likely THIS exact sequence is, if the coin had that p</text>
+</svg>

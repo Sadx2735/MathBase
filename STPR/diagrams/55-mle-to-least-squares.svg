@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 420" width="900" height="420">
+  <defs>
+    <filter id="rough" x="-5%" y="-5%" width="110%" height="110%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.02" numOctaves="3" seed="155" result="noise"/>
+      <feDisplacementMap in="SourceGraphic" in2="noise" scale="4"/>
+    </filter>
+    <pattern id="hatch-red" width="9" height="9" patternUnits="userSpaceOnUse" patternTransform="rotate(-45)"><line x1="0" y1="0" x2="0" y2="9" stroke="#e03131" stroke-width="1.7"/></pattern>
+    <pattern id="hatch-blue" width="9" height="9" patternUnits="userSpaceOnUse" patternTransform="rotate(-45)"><line x1="0" y1="0" x2="0" y2="9" stroke="#1971c2" stroke-width="1.7"/></pattern>
+    <pattern id="hatch-green" width="9" height="9" patternUnits="userSpaceOnUse" patternTransform="rotate(-45)"><line x1="0" y1="0" x2="0" y2="9" stroke="#2f9e44" stroke-width="1.7"/></pattern>
+    <pattern id="hatch-orange" width="9" height="9" patternUnits="userSpaceOnUse" patternTransform="rotate(-45)"><line x1="0" y1="0" x2="0" y2="9" stroke="#f08c00" stroke-width="1.7"/></pattern>
+    <pattern id="hatch-purple" width="9" height="9" patternUnits="userSpaceOnUse" patternTransform="rotate(-45)"><line x1="0" y1="0" x2="0" y2="9" stroke="#9c36b5" stroke-width="1.7"/></pattern>
+    <pattern id="hatch-grey" width="9" height="9" patternUnits="userSpaceOnUse" patternTransform="rotate(-45)"><line x1="0" y1="0" x2="0" y2="9" stroke="#adb5bd" stroke-width="1.7"/></pattern>
+
+    <style>
+      .t { font-family: Virgil, "Segoe Print", "Comic Sans MS", "Chalkboard SE", "Comic Neue", cursive; fill: #1e1e1e; }
+    </style>
+  </defs>
+  <rect width="900" height="420" fill="#ffffff"/>
+
+  <g filter="url(#rough)" stroke="#1e1e1e" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <rect x="30" y="60" width="190" height="54" rx="10" fill="#a5d8ff" stroke="#1971c2" stroke-width="2"/>
+    <line x1="125" y1="116" x2="125" y2="138" stroke="#868e96" stroke-width="2"/>
+    <path d="M120.2 128.1 L125 138 L129.8 128.1" stroke="#868e96" stroke-width="2" fill="none"/>
+    <rect x="30" y="140" width="190" height="54" rx="10" fill="#eebefa" stroke="#9c36b5" stroke-width="2"/>
+    <line x1="125" y1="196" x2="125" y2="218" stroke="#868e96" stroke-width="2"/>
+    <path d="M120.2 208.1 L125 218 L129.8 208.1" stroke="#868e96" stroke-width="2" fill="none"/>
+    <rect x="30" y="220" width="190" height="54" rx="10" fill="#ffec99" stroke="#f08c00" stroke-width="2"/>
+    <line x1="125" y1="276" x2="125" y2="298" stroke="#868e96" stroke-width="2"/>
+    <path d="M120.2 288.1 L125 298 L129.8 288.1" stroke="#868e96" stroke-width="2" fill="none"/>
+    <rect x="30" y="300" width="190" height="54" rx="10" fill="#b2f2bb" stroke="#2f9e44" stroke-width="2"/>
+  </g>
+
+  <text class="t" x="20" y="32" font-size="20" >Why “most likely line” = “least squares line” (noise is normal)</text>
+  <text class="t" x="125.0" y="92.95" font-size="17" text-anchor="middle">1. each point</text>
+  <text class="t" x="245" y="93" font-size="17" >y = line + noise, noise ~ N(0, σ²)</text>
+  <text class="t" x="125.0" y="172.95" font-size="17" text-anchor="middle">2. likelihood</text>
+  <text class="t" x="245" y="173" font-size="17" >L = e^(−d₁²/2σ²) × e^(−d₂²/2σ²) × … (× constants)</text>
+  <text class="t" x="125.0" y="252.95" font-size="17" text-anchor="middle">3. take log</text>
+  <text class="t" x="245" y="253" font-size="17" >log L = −(d₁² + d₂² + …)/2σ² + constant</text>
+  <text class="t" x="125.0" y="332.95" font-size="17" text-anchor="middle">4. maximise</text>
+  <text class="t" x="245" y="333" font-size="17" >biggest log L ⇔ smallest d₁² + d₂² + …</text>
+  <text class="t" x="20" y="395" font-size="16" style="fill:#868e96">the e^(…) is biggest when the thing inside is closest to 0 → small misses → least squares</text>
+</svg>
